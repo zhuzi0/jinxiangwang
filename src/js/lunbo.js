@@ -58,6 +58,7 @@ $(document).ready(function(){
  
 //创建一个showTime函数
 function showTime(){
+  clearInterval(timer);
   //定时器
   timer = setInterval(function(){
     //调用一个Show()函数
