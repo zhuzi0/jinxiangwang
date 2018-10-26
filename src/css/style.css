@@ -2,9 +2,10 @@
 /* CSS Document */
 body{
 	width: 100%;
+	height:2000px;
 }
 .margin{width:1200px;margin:0 auto;}
-#top{background: #f3f3f3;height:30px;width:100%;border:1px solid #e1e1e2;}
+#top{background: #f3f3f3;height:30px;width:100%;border-bottom:1px solid #e1e1e2;}
 #top .login{float: left;width:188px;height:30px;background: #fff;font:12px/30px "";position: relative;}
 #top .login .xialakuang{position: absolute;width:42px;height:14px;background:#fff url(../img/1.png) no-repeat center;left:73px;border: 1px solid #e1e1e2;border-top: 0; }
 #top .login .wel{color: #999;text-align: center;border-left:1px solid #e1e1e2;border-right:1px solid #e1e1e2;}
@@ -564,26 +565,6 @@ header .nav .classify dl dd:nth-child(2):hover .cwdrug{
 	     display: block;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 header .nav .classify dl dd:nth-child(3){
      background: url(../img/good31.png) no-repeat 20px;
 }
@@ -760,3 +741,86 @@ header .nav .classify dl dd:nth-child(8){
 header .nav .classify dl dd:nth-child(9){
      background: url(../img/good9.png) no-repeat 20px;
 }
+#banner{
+	height:430px;
+	width:100%;
+}
+#banner #igs {
+  margin-left:265px;
+  width: 760px;
+  height: 430px;
+  position: relative;
+}
+
+#banner #igs  .ig {
+  position: absolute;
+}
+ 
+#banner #igs #tabs {
+  position: absolute;
+  list-style: none;
+  background-color: rgba(0,0,0,.5);
+  left: 307px;
+  bottom: 30px;
+  border-radius: 10px;
+  padding: 3px 15px 3px 20px;
+}
+ 
+#banner #igs #tabs .tab{
+  float: left;
+  text-align: center;
+  line-height: 20px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  margin-right: 4px;
+  border-radius: 100%;
+  background-color: rgba(255,255,255,.3);
+}
+#banner #igs #tabs .bg{ background-color:rgba(255,255,0,.5);} 
+#banner #igs .btn{
+	cursor: pointer;
+  position: absolute;
+  color: #fff;
+  top: 190px;
+  width: 24px;
+  height: 50px;
+  background-color: rgba(255,255,255,.3);
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  display: none;
+  
+}
+ 
+#banner #igs .btn2{
+  position: absolute;
+  right: 0px;
+}
+.t1{
+	background: #f39553;
+}
+
+.t2{
+	background: #bbd8ee;
+}
+
+.t3{
+	background: #92b2d5;
+}
+
+.t4{
+	background: #92b2d5;
+}
+
+.t5{
+	background: #8ccd00;
+}
+.t6{
+	background: #ecd61d;
+}
+.t7{
+	background: #92b2d5;
+}
+
