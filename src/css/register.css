@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background: #f5f5f5;
+}
+header{
+	height:134px;
+	width:1040px;
+	margin:0 auto;
+	overflow: hidden;
+	background: url(../img/logo1.png) no-repeat left 35px;
+}
+header h3{
+	font:24px/58px "";
+	margin:35px 0 0 247px ;
+	color: #727272;
+}
+form{
+	width:1038px;
+	border: 1px solid #e5e5e5;
+	margin:0 auto;
+	background: #fff;
+	padding-bottom: 72px;
+
+
+}
+form p{
+	height: 40px;
+	margin: 15px  0;
+	position: relative;
+
+}
+form p span{
+	float: right;
+	font:14px/40px "";
+	color: #999;
+}
+form p i{
+	color: #eb6464;
+}
+form p input{
+	float: right;
+	margin-right: 582px;
+	width:259px;
+	height: 38px;
+	padding:0 5px;
+	background: #fff;
+	border:1px solid #d9d9d9;
+}
+
+form p:nth-child(5) input{
+	width:131px;
+	margin-right: 710px;
+}
+form p:nth-child(6) input{
+	width:131px;
+	margin-right: 710px;
+}
+ form  p .bianhua{
+	position: absolute;
+	background: yellow;
+	width:80px;
+	height:40px;
+	left:334px;
+	top:-1px;
+	font:25px/40px "" ;
+	color: #0000ed;
+	text-align: center;
+	background: #d4d4d4;
+}
+ form  p .btn{
+	position: absolute;
+	background: #fff;
+	border: 0;
+	width:85px;
+	height:32px;
+	left:422px;
+	top:12px;
+	font-size: 12px;
+	color: #666;
+	cursor: pointer;
+	
+}
+form  p  button{
+	position: absolute;
+	width:108px;
+	height:40px;
+	background: #f4f4f4;
+	font:12px/40px "";
+	left:334px;
+	top:0;
+	border:1px solid #d9d9d9;
+	color: #666;
+}
+form .read{
+     margin:28px  0  42px 185px;
+     color: #666;
+}
+form .read input{
+	position: relative;
+	top:2px;
+
+}
+form .read a{
+	color: #4496ee;
+}
+form .register{
+	 margin-left: 185px;
+}
+form .register input{
+      width:270px;
+      height: 36px;
+      background: #e74e4e;
+      font:16px/36px "";
+      text-align: center;
+      border: 0;
+      color: #fff;
+
+}
+
+.people-b{
+	height:272px;
+	width:1200px;
+	margin:30px auto 0;
+	background: #fff;
+}
+.people-b .people-b-l{
+	float: left;
+	width:780px;
+	padding:0 80px 0 40px;
+	height:100%;
+}
+.people-b .people-b-l ul{
+	width:780px;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.people-b .people-b-l ul li{
+	 margin-top: 17px;
+}
+.people-b .people-b-l ul li p{
+	font:14px/36px "";
+	color: #666;
+	cursor: pointer;
+}
+.people-b .people-b-l ul li p:hover{
+	color: #2295fe;
+
+}
+.people-b .people-b-l ul li h3{
+	font:700 16px/40px "";
+	color: #4c4c4c;
+}
+.people-b .gongzhong{
+	 float: left;
+	 margin:17px 0 0 78px;
+}
+.people-b .gongzhong h3{
+	font:700 16px/40px "";
+	color: #4c4c4c;
+	width:130px;
+	text-align: center;
+}
+.people-b .gongzhong img{
+	width:130px;
+	height:130px;
+}
+footer{
+	height:156px;
+	
+	text-align: center;
+	color: #666;
+	overflow: hidden;
+	background:#f5f5f5 url(../img/cert.png) no-repeat 900px 60px;
+}
+footer .foot{
+	margin-top:15px ;
+}
+footer .foot a{
+	font:12px/52px "";
+}
+footer  span{
+	font:12px/36px "";
+}
