@@ -3,13 +3,13 @@ $('#inquiry .inform .inform-t h5').eq(0).hover(function(){
 	$('#inquiry .inform .inform-b').css('display','block');
 	$('#inquiry .inform .inform-d').css('display','none');
 	$(this).next().css('borderBottom','0');
-})
+});
 $('#inquiry .inform .inform-t h5').eq(1).hover(function(){
 	$(this).css('borderBottom','2px solid #4998eb');
 	$('#inquiry .inform .inform-d').css('display','block');
 	$('#inquiry .inform .inform-b').css('display','none');
 	$(this).prev().css('borderBottom','0');
-})
+});
 function mendZero(n){
 		if(n < 10){
 			return '0' + n;
@@ -32,7 +32,7 @@ function mendZero(n){
    	       $('main .rush .rush-t .rush-t-l .date .datee').eq(0).html(hours);
            $('main .rush .rush-t .rush-t-l .date .datee').eq(1).html(minutes);
            $('main .rush .rush-t .rush-t-l .date .datee').eq(2).html(seconds);
-     },1000)
+     },1000);
 
  $.get("ajax/ajax1.txt", function(data){
        var arr = JSON.parse(data);
@@ -69,7 +69,7 @@ $.get("ajax/ajax2.txt",function(data){
 				   </li>`).appendTo("main .caw .title .title-r .zxyp ul");
 	 })
 
-})
+});
 
 $.get("ajax/ajax2.txt",function(data){
 	 var  object = JSON.parse(data);
@@ -85,7 +85,7 @@ $.get("ajax/ajax2.txt",function(data){
 				   </li>`).appendTo("main .caw .title .title-r .fkyy ul");
 	 })
 
-})
+});
 $.get("ajax/ajax2.txt",function(data){
 	 var  object = JSON.parse(data);
 	 var  arr3   =object.gmyy;
@@ -100,7 +100,7 @@ $.get("ajax/ajax2.txt",function(data){
 				   </li>`).appendTo("main .caw .title .title-r .gmyy ul");
 	 })
 
-})
+});
 $.get("ajax/ajax2.txt",function(data){
 	 var  object = JSON.parse(data);
 	 var  arr4   =object.guke;
@@ -115,7 +115,7 @@ $.get("ajax/ajax2.txt",function(data){
 				   </li>`).appendTo("main .caw .title .title-r .guke ul");
 	 })
 
-})
+});
 $.get("ajax/ajax2.txt",function(data){
 	 var  object = JSON.parse(data);
 	 var  arr5   =object.pifu;
@@ -130,7 +130,7 @@ $.get("ajax/ajax2.txt",function(data){
 				   </li>`).appendTo("main .caw .title .title-r .pifu ul");
 	 })
 
-})
+});
 $.get("ajax/ajax2.txt",function(data){
 	 var  object = JSON.parse(data);
 	 var  arr6   =object.changwei;
@@ -145,7 +145,7 @@ $.get("ajax/ajax2.txt",function(data){
 				   </li>`).appendTo("main .caw .title .title-r .changwei ul");
 	 })
 
-})
+});
 $.get("ajax/ajax2.txt",function(data){
 	 var  object = JSON.parse(data);
 	 var  arr7   =object.wuguan;
@@ -160,51 +160,51 @@ $.get("ajax/ajax2.txt",function(data){
 				   </li>`).appendTo("main .caw .title .title-r .wuguan ul");
 	 })
 
-})
+});
 for(var m = 0 ; m < 6 ; m++){
 		$("main .caw").eq(m).find(" .title .title-r a").eq(0).hover(function(){
 			$(this).find(".zxyp").css('display',"block");
 			$(this).addClass("te");
 			$(this).siblings().removeClass("te");
 			$(this).siblings().find(".fkyy , .gmyy ,.guke, .pifu , .changwei ,.wuguan ").css("display","none");
-		})
+		});
 		$("main .caw").eq(m).find(" .title .title-r a").eq(1).hover(function(){
 			$(this).find(".fkyy").css('display',"block");
 			$(this).addClass("te");
 			$(this).siblings().removeClass("te");
 			$(this).siblings().find(".zxyp , .gmyy ,.guke, .pifu , .changwei ,.wuguan ").css("display","none");
-		})
+		});
 		$("main .caw").eq(m).find(" .title .title-r a").eq(2).hover(function(){
 			$(this).find(".gmyy").css('display',"block");
 			$(this).addClass("te");
 			$(this).siblings().removeClass("te");
 			$(this).siblings().find(".fkyy , .zxyp ,.guke, .pifu , .changwei ,.wuguan ").css("display","none");
-		})
+		});
 		$("main .caw").eq(m).find(" .title .title-r a").eq(3).hover(function(){
 			$(this).find(".guke").css('display',"block");
 			$(this).addClass("te");
 			$(this).siblings().removeClass("te");
 			$(this).siblings().find(".fkyy , .gmyy ,.zxyp, .pifu , .changwei ,.wuguan ").css("display","none");
-		})
+		});
 		$("main .caw").eq(m).find(" .title .title-r a").eq(4).hover(function(){
 			$(this).find(".pifu").css('display',"block");
 			$(this).addClass("te");
 			$(this).siblings().removeClass("te");
 			$(this).siblings().find(".fkyy , .gmyy ,.guke, .zxyp , .changwei ,.wuguan ").css("display","none");
-		})
+		});
 
 		$("main .caw").eq(m).find(" .title .title-r a").eq(5).hover(function(){
 			$(this).find(".changwei").css('display',"block");
 			$(this).addClass("te");
 			$(this).siblings().removeClass("te");
 			$(this).siblings().find(".fkyy , .gmyy ,.guke, .pifu , .zxyp ,.wuguan ").css("display","none");
-		})
+		});
 		$("main .caw").eq(m).find(" .title .title-r a").eq(6).hover(function(){
 			$(this).find(".wuguan").css('display',"block");
 			$(this).addClass("te");
 			$(this).siblings().removeClass("te");
 			$(this).siblings().find(".fkyy , .gmyy ,.guke, .pifu , .changwei ,.zxyp ").css("display","none");
-		})
+		});
 
 }
 

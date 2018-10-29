@@ -10,7 +10,7 @@ gulp.task('css',function(){
 	return gulp.src("./src/css/*.css").pipe(sass()).pipe(rename({"suffix" : ".min"})).pipe(cssnano()).pipe(gulp.dest('dist/css'));
 })
 gulp.task('js',function(){
-	return gulp.src("./src/js/*.js").pipe(rename({"suffix" : ".min"})).pipe(uglify()).pipe(gulp.dest('dist/js'));
+	return gulp.src("./src/js/index.js").pipe(rename({"suffix" : ".min"})).pipe(uglify()).pipe(gulp.dest('dist/js'));
 })
 
 gulp.task('default',function(){
