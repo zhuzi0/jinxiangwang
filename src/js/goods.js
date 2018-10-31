@@ -70,7 +70,7 @@ $(".classify").hover(function(){
 	     }else{
 	     	$(".product").css({"position":"absolute","top":0,"left":802});
 	     }
-	     console.log($(this).scrollTop());
+	    
 	     if($(this).scrollTop()>=6678){
 	     	$(".product").css({"position":"absolute","top":0,"left":802});
 	     }
@@ -83,3 +83,110 @@ $(".classify").hover(function(){
    	     	$(".nv ul li").eq(0).css({"background":"#4496ee","color":"#fff"})
    	     })
    })
+
+  
+
+   $(function(){
+      var n = parseInt($(".shu input").val());
+       $(".num .jishu .bttn .button1").click(function(){
+           var num = $(".shu input").val();
+              if($(".shu input").val()>=46){
+                $(".shu input").val("46");
+              }else{
+                 num++;
+
+              }
+              $(".shu input").val(num);
+              n = parseInt($(".shu input").val());
+    })
+      $(".num .jishu .bttn .button2").click(function(){
+           var num = $(".shu input").val();
+              if($(".shu input").val()<=1){
+                 $(".shu input").val("1");
+              }else{
+                 num--;             
+
+              }
+              $(".shu input").val(num);
+              n = parseInt($(".shu input").val());
+
+    })
+       init();
+       $(".order .cart").click(function(){
+        window.location = 'cart.html';
+       })
+       //加入购物车按钮
+       var $btn = $(".add");
+       
+       $btn.click(function(event){
+             let goodId = $(this).parent('.good-c').attr('data-good-id');
+             let goodSrc = $(".show .showsmall").attr("src");
+             let goodName= $(".tit").html();
+        
+              let goodPrice = parseInt($(".p2").find("span").html());
+            
+         
+             //获取当前cookie
+             let cookieStr = $.cookie('cart') ? $.cookie('cart') : '';
+             //alert(cookieStr);
+             //转对象
+             let cookieObj = convertCookieStrToCookieObj(cookieStr);
+             //
+
+             if(goodId in cookieObj){
+               cookieObj[goodId].num =  cookieObj[goodId].num + n;
+             }else{
+               cookieObj[goodId] = {
+                 "src" : goodSrc,
+                 "name" : goodName,
+                 "price" : goodPrice,
+                 "num" : 1
+               }
+             }
+              //创建cookie
+             $.cookie('cart',JSON.stringify(cookieObj),{expires : 7,path : '/'});
+             let $img =  $(".show .showsmall").clone().css({width:50,height:50});
+               $img.fly({
+              start: {
+                left: event.pageX,//抛物体起点横坐标
+                top: event.pageY //抛物体起点纵坐标
+              },
+              end: {
+                left: $(".order .cart").offset().left,//抛物体终点横坐标
+                top: $(".order .cart").offset().top, //抛物体终点纵坐标
+                width : 0,
+                height : 0
+              },
+              autoPlay:true,
+              onEnd: function() {
+                $img.remove();
+                var num = parseInt( $(".order .cart").find("span").html());
+                var num1= parseInt(/(\d+)/.exec($(".sele a").eq(0).find("b").html())) ;
+               
+                //alert(num);
+                $(".order .cart").find("span").html(num + n);
+                $(".sele a").eq(0).find("b").html("购物车(" + (num1 + n) + ")");
+              }
+            });
+           
+       })
+               
+   })
+  //初始化购物车
+      function init(){
+        let cookieStr = $.cookie('cart') ? $.cookie('cart') : '';
+        let cookieObj = convertCookieStrToCookieObj(cookieStr);
+        var num = 0;
+        for(var key in cookieObj){
+          num += cookieObj[key].num;
+        }
+        $(".sele a").eq(0).find("b").html("购物车(" + num + ")");
+         $(".order .cart").find("span").html(num);
+      }
+      //将json字符串转为json对象
+      function convertCookieStrToCookieObj(cookieStr){
+        if(!cookieStr){
+          return {};
+        }
+        return JSON.parse(cookieStr);
+      }

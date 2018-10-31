@@ -24,7 +24,7 @@
  	  $(this).parent().css("border","1px solid #d9d9d9");
  	  $(this).prev().css("background","#f3f3f3 url(img/suo1.png) no-repeat center");
  })
-$(".btn").click (function(){
+$(".btn").click(function(){
 			 var str= '';
    for(var i=0;i<4;i++){
 			var num = radomnum(48,123);
@@ -55,5 +55,25 @@ function  radom(){
  $(".kuang .bianhua").html(str);
 }
 
-  
+  //获取cookie
+        let cookieStr = $.cookie('user') ;
+        //转对象
+        let cookieObj = convertCookieStrToCookieObj(cookieStr);
+       
+         let  num = $(".bianhua").html();
+$(".sub").click(function(){
+        
+      if(($(".txt").val() == cookieObj.name && $(".psd").val() == cookieObj.password && $(".yan").val() == num)|| ($(".txt").val() == cookieObj.tel && $(".psd").val() == cookieObj.password && $(".yan").val() == num)){
+              alert("登录成功");
+              $(location).attr('href', 'index.html');
+              
+      }
 
+});
+  
+function convertCookieStrToCookieObj(str){
+        if(!str){
+          return {};
+        }
+        return JSON.parse(str);
+       }

@@ -35,6 +35,78 @@ form p span{
 	font:14px/40px "";
 	color: #999;
 }
+form p .sb1{
+	 position: absolute;
+	 width: 300px;
+	 height:38px;
+	 border:1px solid #e76464;
+	 color: #e76464;
+	 left:460px;
+	 top:0;
+	 display: none;
+	 font:12px/38px "";
+	 text-align: center;
+}
+form p .sb2{
+	 position: absolute;
+	 width: 300px;
+	 height:38px;
+	 border:1px solid #e76464;
+	 color: #e76464;
+	 left:460px;
+	 top:0;
+	 display: none;
+	 font:12px/38px "";
+	 text-align: center;
+}
+form p .sb3{
+	 position: absolute;
+	 width: 300px;
+	 height:38px;
+	 border:1px solid #e76464;
+	 color: #e76464;
+	 left:460px;
+	 top:0;
+	 display: none;
+	 font:12px/38px "";
+	 text-align: center;
+}
+form p .sb4{
+	 position: absolute;
+	 width: 300px;
+	 height:38px;
+	 border:1px solid #e76464;
+	 color: #e76464;
+	 left:460px;
+	 top:0;
+	 display: none;
+	 font:12px/38px "";
+	 text-align: center;
+}
+form p .sb5{
+	 position: absolute;
+	 width: 300px;
+	 height:38px;
+	 border:1px solid #e76464;
+	 color: #e76464;
+	 left:520px;
+	 top:0;
+	 display: none;
+	 font:12px/38px "";
+	 text-align: center;
+}
+form p .sb6{
+	 position: absolute;
+	 width: 300px;
+	 height:38px;
+	 border:1px solid #e76464;
+	 color: #e76464;
+	 left:520px;
+	 top:0;
+	 display: none;
+	 font:12px/38px "";
+	 text-align: center;
+}
 form p i{
 	color: #eb6464;
 }

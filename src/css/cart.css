@@ -87,7 +87,48 @@ main .jiesuan button{
 	background: #4496ee;
 	border:0;
 	float: right;
-	
+	color: #fff;	
+}
+main .blank {
+				height: 448px;
+				font: 12px/28px "";
+				color: #666;
+				display: none;
+}
+main .blank .kong{
+	         float: left;
+	         margin:140px 0 0 306px;
+}
+main .blank p{
+	       float: left;
+	      width:300px;
+	      margin: 140px 0 0  5px;
+}
+main .blank p a{
+	 color: #4496ee;
+}
+main .zong{
+	   	width:1200px;
+		border-top:1px solid #dfdfdf;
+		border-bottom:1px solid #dfdfdf;
+		height:88px; 
+}
+main .zong li{
+	    float: left;
+	    margin-right:32px;
+	    font:12px/88px "";
+	    cursor: pointer;
+}
+main .zong li:nth-child(4) a{
+	    color: #4998eb;
+}
+main .zong li:nth-child(5){
+	 margin-left: 528px;
+	 font:22px/88px "";
+	 color: #333;
+}
+main .zong li:nth-child(5) span{
+	  color: #ff565f;
 }
 .people-b{
 	height:272px;

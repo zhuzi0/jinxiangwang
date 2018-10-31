@@ -9,19 +9,41 @@
 <body>
 	<header><h3>Hi, 欢迎注册</h3></header>
 	<form method="get" action="">
-	      <p><input type="text" class="user" style="background:#f3f3f3 url(img/ren1.png) no-repeat  250px ;"><span><i>* </i>用户名：</span></p>
-	      <p><input type="password" class="psd1" style="background:#f3f3f3 url(img/suo1.png) no-repeat  250px ;"><span><i>* </i>请设置密码：</span></p>
-	      <p><input type="password" class="psd2" style="background:#f3f3f3 url(img/suo1.png) no-repeat  250px ;"><span><i>* </i>请确认密码：</span></p>
-	      <p><input type="text" class="phone" style="background:#f3f3f3 url(img/suo1.png) no-repeat  250px ;"><span><i>* </i>验证手机：</span></p>
+	      <p><input type="text" class="user" style="background:#f3f3f3 url(img/ren1.png) no-repeat  250px ;"><span><i>* </i>用户名：</span>
+	      <u class="sb1">
+	          用户名只能由中文、英文、数字及"-"、"_"组成
+	      </u>
+	      </p>
+	      <p><input type="password" class="psd1" style="background:#f3f3f3 url(img/suo1.png) no-repeat  250px ;"><span><i>* </i>请设置密码：</span>
+	        <u class="sb2">
+	         6-20位字符，必须含有字母、数字
+	      </u>
+	      </p>
+	      <p><input type="password" class="psd2" style="background:#f3f3f3 url(img/suo1.png) no-repeat  250px ;"><span><i>* </i>请确认密码：</span>
+	      <u  class="sb3">
+             再次验证输入的密码
+	      </u>
+	      </p>
+	      <p><input type="text" class="phone" style="background:#f3f3f3 url(img/suo1.png) no-repeat  250px ;"><span><i>* </i>验证手机：</span>
+	       <u  class="sb4">
+             输入的手机号码有误
+	      </u>
+	      </p>
 	      <p><input type="text" class="yan1" style="background:#f3f3f3 url(img/suo1.png) no-repeat  250px ;">
 	          <span><i>* </i>验证码：</span>
 	          <b class="bianhua"></b>
 	 	      <b class="btn">看不清?换一张</b>
+	 	   <u  class="sb5">
+             验证码输入有误
+	      </u>
 	 	  </p>
 	      <p>
 	         <input type="text" class="yan2"  style="background:#f3f3f3 url(img/suo1.png) no-repeat  250px ;">
 	         <span><i>* </i>短信验证码：</span>
 	         <button>获取短信验证</button>
+	       <u  class="sb6">
+            请输入验证码
+	      </u>
 	      </p>
 	      <div class="read">
 	       <input type="checkbox"  checked="checked"> 我已阅读并同意<a href="#">《金象网用户注册协议》</a>
