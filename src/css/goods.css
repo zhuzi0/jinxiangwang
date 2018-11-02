@@ -5,30 +5,30 @@ body,html{
 }
 .margin{width:1200px;margin:0 auto;}
 #top{background: #f3f3f3;height:30px;width:100%;border-bottom:1px solid #e1e1e2;}
-#top .login{float: left;width:188px;height:30px;background: #fff;font:12px/30px "";position: relative;}
+#top .login{float: left;width:188px;height:30px;background: #fff;font:12px/30px "宋体";position: relative;}
 #top .login .xialakuang{position: absolute;width:42px;height:14px;background:#fff url(../img/1.png) no-repeat center;left:73px;border: 1px solid #e1e1e2;border-top: 0; }
 #top .login .wel{color: #999;text-align: center;border-left:1px solid #e1e1e2;border-right:1px solid #e1e1e2;}
 #top .login .wel a{color: #4496ee}
 #top .login .tanchu{width:218px;height:108px;border: 1px solid #e5e5e5;position: absolute;display: none; }
 #top .login .tanchu .user{width:218px;height: 74px;background: #fff;}
 #top .login .tanchu .user .tou{float:left;width:48px;height: 48px;border-radius: 5px;background:url(../img/3.png) no-repeat center;margin:14px 0 0 10px;}
-#top .login .tanchu .user .huan{float: left;font:12px/48px "";margin:14px 0 0 18px;color:#666;}
+#top .login .tanchu .user .huan{float: left;font:12px/48px "宋体";margin:14px 0 0 18px;color:#666;}
 #top .login .tanchu .jifen{}
-#top .login .tanchu .jifen .ji{float:left;width:108px;height:34px;background: #ffe5c6;font:12px/34px "";text-align: center;border-right: 2px solid #ffd4a0;}
-#top .login .tanchu .jifen .shou{float:left;width:108px;height:34px;background: #ffe5c6;font:12px/34px "";text-align: center;}
+#top .login .tanchu .jifen .ji{float:left;width:108px;height:34px;background: #ffe5c6;font:12px/34px "宋体";text-align: center;border-right: 2px solid #ffd4a0;}
+#top .login .tanchu .jifen .shou{float:left;width:108px;height:34px;background: #ffe5c6;font:12px/34px "宋体";text-align: center;}
 #top .login:hover .tanchu{display:block;}
-#top .sele{float:right;font:12px/30px "";height:30px;}
+#top .sele{float:right;font:12px/30px "宋体";height:30px;}
 #top .sele a{position: relative;display: inline-block;}
 #top .sele a:hover{color:#4496ee;}
 #top .sele a .car{position:relative;top:-2px;}
 #top .sele a .personcenter{position:absolute;width:163px;height: 80px;border:1px solid #e5e5e5;border-top:0;top:28px;left:-92px;display: none;background: #fff;}
 #top .sele a .personcenter ul{height:60px;width:134px;margin:10px 0 0 18px;}
-#top .sele a .personcenter ul li{font:12px/30px "";float: left;}
+#top .sele a .personcenter ul li{font:12px/30px "宋体";float: left;}
 #top .sele a .personcenter ul li.te1{margin-right:14px ;}
 #top .sele a .personcenter ul li.te2{margin-right: 25px;}
 #top .sele a.person:hover .personcenter{display: block;}
 #top .sele a.guan .follow{position:absolute;width:78px;height:117px;border:1px solid #e5e5e5;top:30px;left:-14px;padding:12px 10px;display: none;background: #fff;z-index: 2;}
-#top .sele a.guan .follow p{padding: 0 8px;font:12px/18px "";margin-top: 5px;}
+#top .sele a.guan .follow p{padding: 0 8px;font:12px/18px "宋体";margin-top: 5px;}
 #top .sele a.guan:hover .follow{display: block;}
 #top .sele a.ser .service{position: absolute;width:163px;height: 110px;border:1px solid #e5e5e5;border-top: 0;top:30px;left:-94px;display: none;background:#fff;z-index: 2;}
 #top .sele a.ser .service ul{height: 100px;padding-top: 10px;}
@@ -69,7 +69,7 @@ header .head-t .searchb .searchb-t .btn{
 	color:#fff;
 }
 header .head-t .searchb .searchb-b a{
-	font:12px/24px "";
+	font:12px/24px "宋体";
 	margin-right: 16px;
 }
 header .head-t .order{
@@ -101,7 +101,7 @@ header .head-t .order .cart{
 	height: 40px;
 	background: #4496ee;
 	text-align: center;
-	font:12px/40px "";
+	font:12px/40px "宋体";
 	position: absolute;
 	left:70px;
 	top:0;
@@ -135,7 +135,7 @@ header .nav ul li.re{
 }
 header .nav ul li a{
 	display: block;
-	font:16px/40px "";
+	font:16px/40px "宋体";
 	padding:0 27px;
 }
 header .nav ul li a.te{
@@ -146,7 +146,7 @@ header .nav ul li a:hover{
 }
 header .nav .hotline{
 	float: right;
-	font:16px/40px "";
+	font:16px/40px "宋体";
 	color: #666;
 	width:216px;
 	background:url(../img/phone.png) no-repeat left;
@@ -169,7 +169,7 @@ header .nav .classify{
 	z-index: 1001;
 }
 header .nav .classify h3{
-	font:16px/42px "";
+	font:16px/42px "宋体";
 	text-align: center;
 	color: #fff;
 	background: #3184dd;
@@ -184,7 +184,7 @@ header .nav .classify dl{
 }
 header .nav .classify dl dd{
 	padding-left: 20px;
-	font:14px/47px "";
+	font:14px/47px "宋体";
 	text-indent: 38px;
 	color:#fff;
 	position: relative;
@@ -227,24 +227,23 @@ header .nav .classify dl dd:nth-child(1) .home .home-l .home-l-c{
 header .nav .classify dl dd:nth-child(1) .home .home-l .home-l-b{
     margin-left: 30px;
     width:658px;
-	border-bottom:1px solid #e5e5e5 ;
-	padding-bottom: 15px;
+	padding-bottom: 10px;
 }
 header .nav .classify dl dd:nth-child(1) .home .home-l  h4{
 	color:#666;
-	font:14px/60px "";
+	font:14px/60px "宋体";
 }
 header .nav .classify dl dd:nth-child(1) .home .home-l .home-l-t .yao{
 	width:658px;
-    font:12px/26px "";
+    font:12px/26px "宋体";
 }
 header .nav .classify dl dd:nth-child(1) .home .home-l .home-l-c .recom{
 	width:658px;
-    font:12px/26px "";
+    font:12px/26px "宋体";
 }
 header .nav .classify dl dd:nth-child(1) .home .home-l .home-l-b .news{
 	width:658px;
-    font:12px/26px "";
+    font:12px/26px "宋体";
 }
 header .nav .classify dl dd:nth-child(1) .home .home-l  i{
 	
@@ -316,11 +315,11 @@ header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-l .cw-l-l-a {
 
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-l .cw-l-l-a h4{
-    font:700 12px/29px "";
+    font:700 12px/25px "宋体";
     color: #666;
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-l .cw-l-l-a .xn{
-	font:12px/22px "";
+	font:12px/22px "宋体";
 	color:#666;
 
 }
@@ -329,15 +328,15 @@ header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-l .cw-l-l-a .xn spa
 }
 
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-l .cw-l-l-b {
-	margin-top:10px;
+	margin-top:2px;
 
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-l .cw-l-l-b h4{
-    font:700 12px/29px "";
+    font:700 12px/25px "宋体";
     color: #666;
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-l .cw-l-l-b .nf{
-	font:12px/22px "";
+	font:12px/22px "宋体";
 	color:#666;
 
 }
@@ -346,15 +345,15 @@ header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-l .cw-l-l-b .nf spa
 }
 
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-l .cw-l-l-c {
-	margin-top:10px;
+	margin-top:2px;
 
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-l .cw-l-l-c h4{
-    font:700 12px/29px "";
+    font:700 12px/25px "宋体";
     color: #666;
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-l .cw-l-l-c .gd{
-	font:12px/22px "";
+	font:12px/22px "宋体";
 	color:#666;
 
 }
@@ -362,15 +361,15 @@ header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-l .cw-l-l-c .gd spa
 	margin:0 6px;
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-l .cw-l-l-d {
-	margin-top:10px;
+	margin-top:2px;
 
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-l .cw-l-l-d h4{
-    font:700 12px/29px "";
+    font:700 12px/25px "宋体";
     color: #666;
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-l .cw-l-l-d .gk{
-	font:12px/22px "";
+	font:12px/22px "宋体";
 	color:#666;
 
 }
@@ -379,14 +378,14 @@ header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-l .cw-l-l-d .gk spa
 }
 
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-l .cw-l-l-e {
-  margin-top: 10px;
+  margin-top: 2px;
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-l .cw-l-l-e h4{
-    font:700 12px/29px "";
+    font:700 12px/25px "宋体";
     color: #666;
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-l .cw-l-l-e .hx{
-	font:12px/22px "";
+	font:12px/22px "宋体";
 	color:#666;
 
 }
@@ -407,11 +406,11 @@ header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-c .cw-l-c-a {
 
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-c .cw-l-c-a h4{
-    font:700 12px/29px "";
+    font:700 12px/25px "宋体";
     color: #666;
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-c .cw-l-c-a .pf{
-	font:12px/22px "";
+	font:12px/22px "宋体";
 	color:#666;
 
 }
@@ -424,11 +423,11 @@ header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-c .cw-l-c-b {
 
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-c .cw-l-c-b h4{
-    font:700 12px/29px "";
+    font:700 12px/25px "宋体";
     color: #666;
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-c .cw-l-c-b .wc{
-	font:12px/22px "";
+	font:12px/22px "宋体";
 	color:#666;
 
 }
@@ -440,12 +439,12 @@ header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-c .cw-l-c-c {
 
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-c .cw-l-c-c h4{
-    font:700 12px/29px "";
+    font:700 12px/25px "宋体";
     color: #666;
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-c .cw-l-c-c .mn{
 	width:220px;
-	font:12px/22px "";
+	font:12px/22px "宋体";
 	color:#666;
 
 }
@@ -458,12 +457,12 @@ header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-c .cw-l-c-d {
 
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-c .cw-l-c-d h4{
-    font:700 12px/29px "";
+    font:700 12px/25px "宋体";
     color: #666;
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-c .cw-l-c-d .kgr{
 	width:195px;
-	font:12px/22px "";
+	font:12px/22px "宋体";
 	color:#666;
 
 }
@@ -485,11 +484,11 @@ header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-r .cw-l-r-a {
 
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-r .cw-l-r-a h4{
-    font:700 12px/29px "";
+    font:700 12px/25px "宋体";
     color: #666;
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-r .cw-l-r-a .js{
-	font:12px/22px "";
+	font:12px/22px "宋体";
 	color:#666;
 
 }
@@ -501,11 +500,11 @@ header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-r .cw-l-r-b {
 
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-r .cw-l-r-b h4{
-    font:700 12px/29px "";
+    font:700 12px/25px "宋体";
     color: #666;
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-r .cw-l-r-b .wg{
-	font:12px/22px "";
+	font:12px/22px "宋体";
 	color:#666;
 
 }
@@ -517,11 +516,11 @@ header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-r .cw-l-r-c {
 
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-r .cw-l-r-c h4{
-    font:700 12px/29px "";
+    font:700 12px/25px "宋体";
     color: #666;
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-r .cw-l-r-c .yk{
-	font:12px/22px "";
+	font:12px/22px "宋体";
 	color:#666;
 
 }
@@ -533,11 +532,11 @@ header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-r .cw-l-r-d {
 
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-r .cw-l-r-d h4{
-    font:700 12px/29px "";
+    font:700 12px/25px "宋体";
     color: #666;
 }
 header .nav .classify dl dd:nth-child(2) .cwdrug .cw-l .cw-l-r .cw-l-r-d .kg{
-	font:12px/22px "";
+	font:12px/22px "宋体";
 	color:#666;
 
 }
@@ -600,7 +599,7 @@ header .nav .classify dl dd:nth-child(3) .man  .man-l .man-l-t{
         margin-left:30px;
 }
 header .nav .classify dl dd:nth-child(3) .man  .man-l .man-l-t h4{
-	font:700 16px/28px "";
+	font:700 16px/28px "宋体";
 	color:#666;
 	margin-top:15px;
 }
@@ -612,32 +611,32 @@ header .nav .classify dl dd:nth-child(3) .man  .man-l .man-l-t .ypz .ypz-l{
 	float: left;
 }
 header .nav .classify dl dd:nth-child(3) .man  .man-l .man-l-t .ypz .ypz-l h5{
-	font:700 12px/34px "";
+	font:700 12px/34px "宋体";
 	color:#7a7a7a;
 }
 header .nav .classify dl dd:nth-child(3) .man  .man-l .man-l-t .ypz .ypz-l .nkj{
     width:310px;
-	font:12px/22px "";
+	font:12px/22px "宋体";
 	color:#666;
 }
 header .nav .classify dl dd:nth-child(3) .man  .man-l .man-l-t .ypz .ypz-l .nkj span{
-	margin:0 10px;
+	margin:0 9px;
 }
 header .nav .classify dl dd:nth-child(3) .man  .man-l .man-l-t .ypz .ypz-r{
 	float: left;
 	margin-left: 54px;
 }
 header .nav .classify dl dd:nth-child(3) .man  .man-l .man-l-t .ypz .ypz-r h5{
-	font:700 12px/34px "";
+	font:700 12px/34px "宋体";
 	color:#7a7a7a;
 }
 header .nav .classify dl dd:nth-child(3) .man  .man-l .man-l-t .ypz .ypz-r .yds{
     width:294px;
-	font:12px/22px "";
+	font:12px/22px "宋体";
 	color:#666;
 }
 header .nav .classify dl dd:nth-child(3) .man  .man-l .man-l-t .ypz .ypz-r .yds span{
-	margin:0 12px;
+	margin:0 8px;
 }
 
 
@@ -649,13 +648,13 @@ header .nav .classify dl dd:nth-child(3) .man  .man-l .man-l-c{
 
 }
 header .nav .classify dl dd:nth-child(3) .man  .man-l .man-l-c h4{
-	  	font:700 16px/52px "";
+	  	font:700 16px/52px "宋体";
 		color:#666;
 		margin-top:4px;
 }
 header .nav .classify dl dd:nth-child(3) .man  .man-l .man-l-c .bjzq{
 	width:582px;
-	font:12px/26px "";
+	font:12px/26px "宋体";
 	color:#666;
 
 }
@@ -674,11 +673,11 @@ header .nav .classify dl dd:nth-child(3) .man  .man-l .man-l-b{
 }
 header .nav .classify dl dd:nth-child(3) .man  .man-l .man-l-b h4{
 
-	font:700 16px/60px "";
+	font:700 16px/60px "宋体";
 	color:#666;
 }
 header .nav .classify dl dd:nth-child(3) .man  .man-l .man-l-b .crz{
-	font:12px/14px "";
+	font:12px/14px "宋体";
 	color: #666;
 
 }
@@ -747,12 +746,12 @@ main .main_1{
 }
 main .main_1 h6{
 	height:33px;
-	font:10px/33px "";
+	font:10px/33px "宋体";
 	color: #999;
 	border-bottom: 1px dashed #d0d0d0;
 }
 main .main_1 h4{
-	font:12px/37px "";
+	font:12px/37px "宋体";
 	color: #666;
 }
 main .good {
@@ -820,7 +819,7 @@ main .good .good-l .btn  span{
 	  	width:10px;
 	  	height:18px;
 	  	color: #666;
-	  	font:14px/18px "";
+	  	font:14px/18px "宋体";
 	  	text-align: center;
 	  	cursor: pointer;
 	  }
@@ -837,22 +836,22 @@ main .good .good-c{
 	margin-left: 10px;
 }
 main .good .good-c .tit{
-	font:700 16px/25px "";
+	font:700 16px/25px "宋体";
 }
 main .good .good-c .p1{
-	font:14px/24px "";
+	font:14px/24px "宋体";
 	color: #f63334;
 }
 main .good .good-c .p2{
-	font:12px/52px "";
+	font:12px/52px "宋体";
 	color: #999;
 }
 main .good .good-c .p2 span{
-	font:22px/52px "";
+	font:22px/52px "宋体";
 	color:#f63334;
 }
 main .good .good-c .sele h4{
-	font:12px/30px "";
+	font:12px/30px "宋体";
 	color: #999;
 }
 main .good .good-c .sele p{
@@ -860,7 +859,7 @@ main .good .good-c .sele p{
 	height: 30px;
 	border:1px solid #dad9dc;
 	margin-bottom: 4px;
-	font:12px/28px "";
+	font:12px/28px "宋体";
 	color: #333;
 	text-align: center;
 	box-sizing:border-box;
@@ -875,7 +874,7 @@ main .good .good-c .sale{
 	margin-top: 20px;
 	border-top:1px dashed #ccc;
 	border-bottom:1px dashed #ccc ;
-	font:12px/39px "";
+	font:12px/39px "宋体";
 	text-align: center;
 }
 main .good .good-c .sale a{
@@ -897,7 +896,7 @@ main .good .good-c .num{
 }
 main .good .good-c .num h3{
 	float: left;
-	font:12px/62px "";
+	font:12px/62px "宋体";
 	color: #999;
 }
 main .good .good-c .num .jishu{
@@ -936,7 +935,7 @@ main .good .good-c .add{
 	width:216px;
 	height: 52px;
 	background: #f63334 url(../img/goodcar.png) no-repeat 30px;
-	font:18px/52px "";
+	font:18px/52px "宋体";
     text-align: center;
     color: #fff;
     cursor: pointer;
@@ -950,7 +949,7 @@ main .good .good-c .dianhua span{
 	width:116px;
 	height: 42px;
 	border: 1px solid #e9e9e9;
-	font:12px/42px "";
+	font:12px/42px "宋体";
 	color: #000;
 	border-radius: 5px;
 	text-align: center;
@@ -976,18 +975,18 @@ main .good .good-r .rest{
 }
 main .good .good-r .rest h2{
 	margin-top: 6px;
-	font:700 12px/20px "";
+	font:700 12px/20px "宋体";
 
 }
 main .good .good-r .rest  span{
-	font:12px/18px "";
+	font:12px/18px "宋体";
 }
 main .good .good-r .bor{
 	border:1px solid #e6e6e6;
 }
 main .good .good-r  h5{
 	width:156px;
-	font:700 12px/42px "";
+	font:700 11px/42px "宋体";
 	color: #333;
 	margin:0 auto;
 }
@@ -995,7 +994,7 @@ main .good .good-r img{
 	margin-left:6px;
 }
 main .good .good-r p{
-	font:12px/26px "";
+	font:12px/26px "宋体";
 	color: #888;
 	margin-left: 12px;
 }
@@ -1006,7 +1005,7 @@ main  .jm{
 	height: 100px;
 }
 main  .jm  p{
-	font:12px/100px "";
+	font:12px/100px "宋体";
 	color: #999;
     float: left;
     margin-left: 32px;
@@ -1024,7 +1023,7 @@ main .main_2 .main_2-l .m1{
 	height: 39px;
 	width:180px;
 	background: #fff;
-	font:12px/39px "";
+	font:12px/39px "宋体";
 	color: #333;
 	padding-left: 10px;
 	border-bottom: 1px solid #e5e5e5;
@@ -1034,7 +1033,7 @@ main .main_2 .main_2-l .m2{
 	 width:180px;
 	 background: #fff;
 	 padding-left: 10px;
-	 font:12px/40px "";
+	 font:12px/40px "宋体";
 }
 main .main_2 .main_2-l .m2 a{
 	margin-right:50px ;
@@ -1070,7 +1069,7 @@ main .main_2 .main_2-r .nv ul li{
 	height: 38px;
 	float: left;
 	background: #eee;
-	font:12px/38px "";
+	font:12px/38px "宋体";
 	text-align: center;
 	border-right: 1px solid #ccc;
 	color: #333;
@@ -1082,7 +1081,7 @@ main .main_2 .main_2-r .nv ul li:nth-child(1){
 main .main_2 .main_2-r  .zhuyi{
 	margin-top:34px;
 	width:888px;
-	font:12px/22px "";
+	font:12px/22px "宋体";
 	color: #999;
 }
 main .main_2 .main_2-r .jieshao{
@@ -1100,7 +1099,7 @@ main .main_2 .main_2-r .jieshao .product{
 
 }
 main .main_2 .main_2-r .jieshao .product h3{
-	font:12px/28px "";
+	font:12px/28px "宋体";
 	color: #666;
 	margin-left:10px;
 }
@@ -1126,7 +1125,7 @@ main .main_2 .main_2-r .jieshao .product .mon .mon-r{
 	width:92px;
 	height:26px;
 	float: left;
-	font:12px/26px "";
+	font:12px/26px "宋体";
 	color: #fff;
 	text-indent: 25px;
 	background:#f63334 url(../img/che.png) no-repeat 4px;
@@ -1161,7 +1160,7 @@ main .main_2 .main_2-r .jieshao .instruction{
 
 }
 main .main_2 .main_2-r .jieshao .instruction p{
-	font:14px/26px "";
+	font:14px/26px "宋体";
 	color: #666;
 	margin:20px 0 0 20px;
 	
@@ -1255,11 +1254,11 @@ main .main_2 .main_2-r .shuo_3{
 }
 .people .people-t ul li .zheng p{
 	margin-top: 7px;
-	  font:700 16px/28px "";
+	  font:700 16px/28px "宋体";
 	  color: #4c5054;
 }
 .people .people-t ul li .zheng span{
-	font:14px/28px "";
+	font:14px/28px "宋体";
 	color:#666;
 }
 .people .people-b{
@@ -1282,7 +1281,7 @@ main .main_2 .main_2-r .shuo_3{
 	 margin-top: 17px;
 }
 .people .people-b .people-b-l ul li p{
-	font:14px/36px "";
+	font:14px/36px "宋体";
 	color: #666;
 	cursor: pointer;
 }
@@ -1291,7 +1290,7 @@ main .main_2 .main_2-r .shuo_3{
 
 }
 .people .people-b .people-b-l ul li h3{
-	font:700 16px/40px "";
+	font:700 16px/40px "宋体";
 	color: #4c4c4c;
 }
 .people .people-b .gongzhong{
@@ -1299,7 +1298,7 @@ main .main_2 .main_2-r .shuo_3{
 	 margin:17px 0 0 78px;
 }
 .people .people-b .gongzhong h3{
-	font:700 16px/40px "";
+	font:700 16px/40px "宋体";
 	color: #4c4c4c;
 	width:130px;
 	text-align: center;
@@ -1320,8 +1319,50 @@ footer .foot{
 	margin-top:15px ;
 }
 footer .foot a{
-	font:12px/52px "";
+	font:12px/52px "宋体";
 }
 footer  span{
-	font:12px/36px "";
+	font:12px/36px "宋体";
+}
+#hanging{
+	position: fixed;
+	width:50px;
+	height:250px;
+	background: #4496ee;
+	top:304px;
+	right:14px;
+	z-index: 1000;
+}
+#hanging a{
+	display: block;
+	height:38px;
+	width:27px;
+	padding-top: 12px;
+	margin:0 auto;
+	color: #fff;
+	position: relative;
+	cursor: pointer;
+	
+}
+#hanging a .xin{
+	position: absolute;
+	width:129px;
+	height:99px;
+	background: url(../img/duihua.png) no-repeat center;
+	left:-132px;
+	top:0;
+	display: none;
+	
+
+}
+#hanging a .xiaowei{
+	position: absolute;
+	width:129px;
+	height:311px;
+	background:url(../img/hao.png) no-repeat center;
+	left:-132px;
+	top:-100px;
+	display: none;
+	
+	
 }

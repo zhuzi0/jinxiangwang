@@ -1,0 +1,568 @@
+@import 'public.scss';
+#jianguan{
+	border-bottom:1px dashed #cdcdcd;
+	p{
+	   font-size:9px;
+	   line-height:33px;
+
+	}
+}
+main{
+    
+	.mulu{
+	    font-size:12px;
+	    line-height:39px;
+	    color:#666;
+	}
+	.special{
+	    font-size:14px;
+	    line-height:36px;
+	    color:#44aef4;
+	    border-bottom:1px solid #4496ee;
+	    height:36px;
+	    .spe1{
+	      float:left;
+	      width:172px;
+	      text-align:center;
+	      margin-left:6px;
+          background:url(../img/seeksanjiao.png) no-repeat center bottom;
+	    }
+	    .spe2{
+	       float:left;
+	       width:172px;
+	        text-align:center;
+	        color:#4c4c4c;
+	    }
+	}
+	.medic,.medic1,.medic2,.medic3,.medic4{
+
+	     margin-top:10px ;
+
+	     .medic-a{
+	          overflow:hidden;
+	          float:left;
+	          width:228px;
+	          height:480px;
+	          border:1px solid #e5e5e5;
+	          margin-bottom:10px;
+	          h4{
+	             font-size:12px;
+	             line-height:36px;
+	             color:#4496ee;
+	             padding-left:9px;
+	             border-bottom:1px solid #4496ee;
+	          }
+	          div{
+	                 cursor: pointer;
+	                h5{
+	                    font-size:12px;
+	                    line-height:32px;
+	                    height:32px;
+	                    border-bottom:1px solid #e5e5e5;
+	                    border-top:1px solid #e5e5e5;
+	                    padding-left:9px;
+	                    color:#444;
+	                }
+	                div{
+	                    
+	                    height:0px;
+	                    background:#f8f8f8;
+	                    
+	                    a{ 
+	                       display:none;
+	                       float:left;
+	                       width:68px;
+	                       height:58px;
+	                       border:1px solid #e5e5e5;
+	                       margin:15px 0 0 23px;
+	                       line-height:68px;
+	                       text-align:center;
+                           margin-bottom:5px;
+	                       img{
+	                          width:58px;
+	                          height:40px;
+	                          
+
+	                          }
+	                    }
+	                    p{
+	                        display:none;
+	                        float:left;
+	                        font-size:12px;
+	                        line-height:62px;
+	                        color:#333;
+
+
+	                    }
+	                }
+
+	          }
+	               div:nth-of-type(1){
+	                
+	                h5{
+	                    font-size:12px;
+	                    line-height:32px;
+	                    height:32px;
+	                    border-bottom:1px solid #e5e5e5;
+	                    border-top:1px solid #e5e5e5;
+	                    padding-left:9px;
+	                    color:#444;
+	                }
+	                div{
+	                    
+	                    height:95px;
+	                    background:#f8f8f8;
+	                    
+	                    a{ 
+	                       display:block;
+	                       float:left;
+	                       width:68px;
+	                       height:58px;
+	                       border:1px solid #e5e5e5;
+	                       margin:15px 0 0 23px;
+	                       line-height:68px;
+	                       text-align:center;
+                           margin-bottom:5px;
+	                       img{
+	                          width:58px;
+	                          height:40px;
+	                          
+
+	                          }
+	                    }
+	                    p{
+	                        display:block;
+	                        float:left;
+	                        font-size:12px;
+	                        line-height:62px;
+	                        color:#333;
+
+
+	                    }
+	                }
+
+	          }
+	           
+	     }
+	     .medic-b{
+	          overflow:hidden;
+	          float:left;
+	          width:228px;
+	          height:480px;
+	          border:1px solid #e5e5e5;
+	          margin:0 10px 10px;
+	           h4{
+	             font-size:12px;
+	             line-height:36px;
+	             color:#4496ee;
+	             padding-left:9px;
+	             border-bottom:1px solid #4496ee;
+	          }
+	          div{
+	                 cursor: pointer;
+	                h5{
+	                    font-size:12px;
+	                    line-height:32px;
+	                    height:32px;
+	                    border-bottom:1px solid #e5e5e5;
+	                    border-top:1px solid #e5e5e5;
+	                    padding-left:9px;
+	                    color:#444;
+	                }
+	                div{
+	                    
+	                    height:0px;
+	                    background:#f8f8f8;
+	                    
+	                    a{ 
+	                       display:none;
+	                       float:left;
+	                       width:68px;
+	                       height:58px;
+	                       border:1px solid #e5e5e5;
+	                       margin:15px 0 0 23px;
+	                       line-height:68px;
+	                       text-align:center;
+                           margin-bottom:5px;
+	                       img{
+	                          width:58px;
+	                          height:40px;
+	                          
+
+	                          }
+	                    }
+	                    p{
+	                        display:none;
+	                        float:left;
+	                        font-size:12px;
+	                        line-height:62px;
+	                        color:#333;
+
+
+	                    }
+	                }
+
+	          }
+	               div:nth-of-type(1){
+	                
+	                h5{
+	                    font-size:12px;
+	                    line-height:32px;
+	                    height:32px;
+	                    border-bottom:1px solid #e5e5e5;
+	                    border-top:1px solid #e5e5e5;
+	                    padding-left:9px;
+	                    color:#444;
+	                }
+	                div{
+	                    
+	                    height:95px;
+	                    background:#f8f8f8;
+	                    
+	                    a{ 
+	                       display:block;
+	                       float:left;
+	                       width:68px;
+	                       height:58px;
+	                       border:1px solid #e5e5e5;
+	                       margin:15px 0 0 23px;
+	                       line-height:68px;
+	                       text-align:center;
+                           margin-bottom:5px;
+	                       img{
+	                          width:58px;
+	                          height:40px;
+	                          
+
+	                          }
+	                    }
+	                    p{
+	                        display:block;
+	                        float:left;
+	                        font-size:12px;
+	                        line-height:62px;
+	                        color:#333;
+
+
+	                    }
+	                }
+
+	          }
+	     }
+	     .medic-c{
+	          overflow:hidden;
+	          float:left;
+	          width:228px;
+	          height:480px;
+	          border:1px solid #e5e5e5;
+	          margin-bottom:10px;
+	           h4{
+	             font-size:12px;
+	             line-height:36px;
+	             color:#4496ee;
+	             padding-left:9px;
+	             border-bottom:1px solid #4496ee;
+	          }
+	          div{
+	                 cursor: pointer;
+	                h5{
+	                    font-size:12px;
+	                    line-height:32px;
+	                    height:32px;
+	                    border-bottom:1px solid #e5e5e5;
+	                    border-top:1px solid #e5e5e5;
+	                    padding-left:9px;
+	                    color:#444;
+	                }
+	                div{
+	                    
+	                    height:0px;
+	                    background:#f8f8f8;
+	                    
+	                    a{ 
+	                       display:none;
+	                       float:left;
+	                       width:68px;
+	                       height:58px;
+	                       border:1px solid #e5e5e5;
+	                       margin:15px 0 0 23px;
+	                       line-height:68px;
+	                       text-align:center;
+                           margin-bottom:5px;
+	                       img{
+	                          width:58px;
+	                          height:40px;
+	                          
+
+	                          }
+	                    }
+	                    p{
+	                        display:none;
+	                        float:left;
+	                        font-size:12px;
+	                        line-height:62px;
+	                        color:#333;
+
+
+	                    }
+	                }
+
+	          }
+	               div:nth-of-type(1){
+	                
+	                h5{
+	                    font-size:12px;
+	                    line-height:32px;
+	                    height:32px;
+	                    border-bottom:1px solid #e5e5e5;
+	                    border-top:1px solid #e5e5e5;
+	                    padding-left:9px;
+	                    color:#444;
+	                }
+	                div{
+	                    
+	                    height:95px;
+	                    background:#f8f8f8;
+	                    
+	                    a{ 
+	                       display:block;
+	                       float:left;
+	                       width:68px;
+	                       height:58px;
+	                       border:1px solid #e5e5e5;
+	                       margin:15px 0 0 23px;
+	                       line-height:68px;
+	                       text-align:center;
+                           margin-bottom:5px;
+	                       img{
+	                          width:58px;
+	                          height:40px;
+	                          
+
+	                          }
+	                    }
+	                    p{
+	                        display:block;
+	                        float:left;
+	                        font-size:12px;
+	                        line-height:62px;
+	                        color:#333;
+
+
+	                    }
+	                }
+
+	          }
+	     }
+	      .medic-d{
+	          overflow:hidden;
+	          float:left;
+	          width:228px;
+	          height:480px;
+	          border:1px solid #e5e5e5;
+	          margin:0 10px 10px;
+	           h4{
+	             font-size:12px;
+	             line-height:36px;
+	             color:#4496ee;
+	             padding-left:9px;
+	             border-bottom:1px solid #4496ee;
+	          }
+	          div{
+	                 cursor: pointer;
+	                h5{
+	                    font-size:12px;
+	                    line-height:32px;
+	                    height:32px;
+	                    border-bottom:1px solid #e5e5e5;
+	                    border-top:1px solid #e5e5e5;
+	                    padding-left:9px;
+	                    color:#444;
+	                }
+	                div{
+	                    
+	                    height:0px;
+	                    background:#f8f8f8;
+	                    
+	                    a{ 
+	                       display:none;
+	                       float:left;
+	                       width:68px;
+	                       height:58px;
+	                       border:1px solid #e5e5e5;
+	                       margin:15px 0 0 23px;
+	                       line-height:68px;
+	                       text-align:center;
+                           margin-bottom:5px;
+	                       img{
+	                          width:58px;
+	                          height:40px;
+	                          
+
+	                          }
+	                    }
+	                    p{
+	                        display:none;
+	                        float:left;
+	                        font-size:12px;
+	                        line-height:62px;
+	                        color:#333;
+
+
+	                    }
+	                }
+
+	          }
+	               div:nth-of-type(1){
+	                
+	                h5{
+	                    font-size:12px;
+	                    line-height:32px;
+	                    height:32px;
+	                    border-bottom:1px solid #e5e5e5;
+	                    border-top:1px solid #e5e5e5;
+	                    padding-left:9px;
+	                    color:#444;
+	                }
+	                div{
+	                    
+	                    height:95px;
+	                    background:#f8f8f8;
+	                    
+	                    a{ 
+	                       display:block;
+	                       float:left;
+	                       width:68px;
+	                       height:58px;
+	                       border:1px solid #e5e5e5;
+	                       margin:15px 0 0 23px;
+	                       line-height:68px;
+	                       text-align:center;
+                           margin-bottom:5px;
+	                       img{
+	                          width:58px;
+	                          height:40px;
+	                          
+
+	                          }
+	                    }
+	                    p{
+	                        display:block;
+	                        float:left;
+	                        font-size:12px;
+	                        line-height:62px;
+	                        color:#333;
+
+
+	                    }
+	                }
+
+	          }
+	     }
+	      .medic-e{
+	          overflow:hidden;
+	          float:left;
+	          width:228px;
+	          height:480px;
+	          border:1px solid #e5e5e5;
+	          margin-bottom:10px;
+	           h4{
+	             font-size:12px;
+	             line-height:36px;
+	             color:#4496ee;
+	             padding-left:9px;
+	             border-bottom:1px solid #4496ee;
+	          }
+	          div{
+	                 cursor: pointer;
+	                h5{
+	                    font-size:12px;
+	                    line-height:32px;
+	                    height:32px;
+	                    border-bottom:1px solid #e5e5e5;
+	                    border-top:1px solid #e5e5e5;
+	                    padding-left:9px;
+	                    color:#444;
+	                }
+	                div{
+	                    
+	                    height:0px;
+	                    background:#f8f8f8;
+	                    
+	                    a{ 
+	                       display:none;
+	                       float:left;
+	                       width:68px;
+	                       height:58px;
+	                       border:1px solid #e5e5e5;
+	                       margin:15px 0 0 23px;
+	                       line-height:68px;
+	                       text-align:center;
+                           margin-bottom:5px;
+	                       img{
+	                          width:58px;
+	                          height:40px;
+	                          
+
+	                          }
+	                    }
+	                    p{
+	                        display:none;
+	                        float:left;
+	                        font-size:12px;
+	                        line-height:62px;
+	                        color:#333;
+
+
+	                    }
+	                }
+
+	          }
+	               div:nth-of-type(1){
+	                
+	                h5{
+	                    font-size:12px;
+	                    line-height:32px;
+	                    height:32px;
+	                    border-bottom:1px solid #e5e5e5;
+	                    border-top:1px solid #e5e5e5;
+	                    padding-left:9px;
+	                    color:#444;
+	                }
+	                div{
+	                    
+	                    height:95px;
+	                    background:#f8f8f8;
+	                    
+	                    a{ 
+	                       display:block;
+	                       float:left;
+	                       width:68px;
+	                       height:58px;
+	                       border:1px solid #e5e5e5;
+	                       margin:15px 0 0 23px;
+	                       line-height:68px;
+	                       text-align:center;
+                           margin-bottom:5px;
+	                       img{
+	                          width:58px;
+	                          height:40px;
+	                          
+
+	                          }
+	                    }
+	                    p{
+	                        display:block;
+	                        float:left;
+	                        font-size:12px;
+	                        line-height:62px;
+	                        color:#333;
+
+
+	                    }
+	                }
+
+	          }
+	     }
+	}
+}

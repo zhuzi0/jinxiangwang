@@ -1,13 +1,13 @@
 radom();
 $(".btn").click (function(){
-			 var str= '';
+       var str= '';
    for(var i=0;i<4;i++){
-			var num = radomnum(48,123);
-			if(num>=58&&num<=64||num>=91&&num<=96){
-			         i--;
-			}else{
-			          str +=String.fromCharCode(num);
-			}
+      var num = radomnum(48,123);
+      if(num>=58&&num<=64||num>=91&&num<=96){
+               i--;
+      }else{
+                str +=String.fromCharCode(num);
+      }
 
 
        }
@@ -18,12 +18,12 @@ $(".btn").click (function(){
 function  radom(){
      var str= '';
     for(var i=0;i<4;i++){
-    	var num = radomnum(48,123);
-    	if(num>=58&&num<=64||num>=91&&num<=96){
-    		i--;
-    	}else{
-    		str +=String.fromCharCode(num);
-    	}
+      var num = radomnum(48,123);
+      if(num>=58&&num<=64||num>=91&&num<=96){
+        i--;
+      }else{
+        str +=String.fromCharCode(num);
+      }
 
 
      }
@@ -86,67 +86,104 @@ $("form p").eq(2).find("input").focusout(function(){
        }
 
  })
+ var kai1 = false;
  $("form p").eq(4).find("input").focusout(function(){
       var str = $("form p").eq(4).find("input").val();
       var str1 =$(".bianhua").html();
       if(str == str1){  
+        kai1 = true;
           $(".sb5").css("display","none");
       }else{
+        kai1 = false;
             $(".sb5").css("display","block");
            
        }
 
  })
+var kai2 = false;
   $("form p").eq(5).find("input").focusout(function(){
       var str = $("form p").eq(5).find("input").val();
       var reg =/^[0-9]{4}$/;
       if(reg.test(str)){
-          
+          kai2 = true;
           $(".sb6").css("display","none");
        }else{
+          kai2 = false;
           $(".sb6").css("display","block");
          
        }
 
  })
-       
+   $(".read input").click(function(){
+           if($(".read input").is(':checked')){
+              $(".sb7").css("display","none");
+          }else{
+              $(".sb7").css("display","block");
+          }
+   });   
 
 
   $(".register input").click(function(){
-
 
        var name = $(".user").val();
        var psd  = $(".psd1").val();
        var tel  = $(".phone").val();
 //获取cookie
-        let cookieStr = $.cookie('user') ? $.cookie('user') : '';
+        var users = $.cookie('registerUsers') ? $.cookie('registerUsers') : '';
         //转对象
-        let cookieObj = convertCookieStrToCookieObj(cookieStr);
-        if(!$.isEmptyObject(cookieObj)){
-           if(cookieObj.name == name && cookieObj.password == psd && cookieObj.tel == tel){
-             alert("该用户已注册");
-           }else{
-                 cookieObj =  {
-                      "name" : name,
-                      "password": psd,
-                      "tel" : tel
-                }
-           }
+          users = convertCookieStrToCookieObj(users);
+  if($(".read input").is(':checked') ){
+        $(".sb7").css("display","none");
+      var str = $("form p").eq(5).find("input").val();
+      var reg =/^[0-9]{4}$/;
+      if(reg.test(str)){
+          kai2 = true;
+          $(".sb6").css("display","none");
+        }else{
+          kai2 = false;
+          $(".sb6").css("display","block");
+        }
+        if(kai1 && kai2){
+                      
+                      if(name in users){
+                         alert("用户名已被注册");
+                         window.location.href = "signin.html";
+                      }else{
+                         users[name]=  psd;
+                         userStr = JSON.stringify(users);
+
+                         $.cookie("registerUsers",userStr,{expires:7,path:"/"});
+                           alert("注册成功");
+                       window.location.href = "signin.html";
+                         
+                      }
+                      
+
+              }else{
+                      if($("form p").eq(4).find("input").val()!=$(".bianhua").html()){
+                         $(".sb5").css("display","block");
+                       }
+                  
+                  
+                   }
+        }else{
+            $(".sb7").css("display","block");
+        }
+                     
           
-        }
-
-       $.cookie('user',JSON.stringify(cookieObj),{expires : 7,path : '/'});
-
-          alert("该用户注册成功");
-  })
+ })
 
 
-   function convertCookieStrToCookieObj(cookieStr){
-        if(!cookieStr){
-          return {};
-        }
-        return JSON.parse(cookieStr);
-      }
+function convertCookieStrToCookieObj(cookieStr){
+    if(!cookieStr){
+      return {};
+    }
+    return JSON.parse(cookieStr);
+  }
+
+
+
+
 
       
         

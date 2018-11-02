@@ -1,0 +1,50 @@
+[
+	{
+	  "effect" : "补气养血，益肝肾。用于",
+	  "sample" : "金鸡 参芪首乌补汁 15ml*8支",
+	  "newmoney" : "￥22",
+      "oldmoney" : "￥45",
+      "img"      : "img/r1.jpg"
+
+	},
+	{
+	  "effect" : "本品为消化道促动力剂",
+	  "sample" : "康弘 新络纳 枸橼酸莫沙必利",
+	  "newmoney" : "￥48",
+      "oldmoney" : "￥48",
+      "img"      : "img/r2.jpg"
+
+	},
+	{
+	  "effect" : "清热利喉，宽胸润喉。用",
+	  "sample" : "慢严舒柠 清喉利咽颗粒 （乳",
+	  "newmoney" : "￥29",
+      "oldmoney" : "￥58",
+      "img"      : "img/r3.jpg"
+
+	},
+	{
+	  "effect" : "用于防治维生素B族缺乏",
+	  "sample" : "天桥牌 食母生片 0.2g*80片",
+	  "newmoney" : "￥3",
+      "oldmoney" : "￥5",
+      "img"      : "img/r4.jpg"
+
+	},
+	{
+	  "effect" : "VE可滋润皮肤中的胶原纤",
+	  "sample" : "雅嘉莱i芦荟超浓缩维生素E乳",
+	  "newmoney" : "￥9.98",
+      "oldmoney" : "￥29",
+      "img"      : "img/r5.jpg"
+
+	},
+	{
+	  "effect" : "适用于痰液粘稠二不易咳",
+	  "sample" : "师克坦 盐酸氨溴索缓释胶囊",
+	  "newmoney" : "￥19.5",
+      "oldmoney" : "￥49",
+      "img"      : "img/r6.jpg"
+
+	}
+]

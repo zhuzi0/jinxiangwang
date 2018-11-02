@@ -1,0 +1,455 @@
+{  
+			"ws" : [
+					{
+				      "img"      : "img/w1.jpg",
+				      "show"     : "慧宝源 十滴水 5ml*10支/盒*10",
+				      "newmoney" : "￥7.0",
+				      "oldmoney" : "￥50"
+
+					},
+					{
+				       "img"      : "img/w2.jpg",
+				      "show"     : "葵花 蒲地蓝消炎片 0.3g*40片",
+					  "newmoney" : "￥18.0",
+				      "oldmoney" : "￥25.00"
+				     
+					},
+					{
+					  "img"      : "img/w3.jpg",
+					  "show"     : "同仁堂 藿香正气水 10ml*10支",
+					  "newmoney" : "￥72.5",
+				      "oldmoney" : "￥140.00"
+				      
+
+					},
+					{
+					  "img"      : "img/w4.jpg",
+					  "show"     : "扬子江 蓝芩口服液 10ml*12支/",
+					  "newmoney" : "￥40.0",
+				      "oldmoney" : "￥50.0"
+
+					},
+					{
+					
+				      "img"      : "img/w5.jpg",
+				      "show"     : "同仁堂 牛黄上清丸 6g*10丸/盒",
+					  "newmoney" : "¥15.0",
+				      "oldmoney" : "¥21.00"
+
+
+					},
+					{
+					 
+				      "img"      : "img/w6.jpg",
+				       "show"     : "寿牌 蒲地蓝消炎口服液 10ml*10",
+					  "newmoney" : "¥51.0",
+				      "oldmoney" : "¥66.00"
+
+					},
+					{
+					
+				      "img"      : "img/w7.jpg",
+				      "show"     : "同仁堂 羚羊感冒片 0.3g*10片*3",
+					  "newmoney" : "¥11.0",
+				      "oldmoney" : "¥12.00"
+
+
+					},
+					{
+					
+				      "img"      : "img/w8.jpg",
+				      "show"     : "仁和 冰硼含片 12片",
+					  "newmoney" : "¥15.0",
+				      "oldmoney" : "¥18.50"
+
+
+					}
+				],
+		"fkyy"  : [ {
+				      "img"      : "img/y1.jpg",
+				      "show"     : "欣妈富隆 去氧孕烯炔雌醇片（口",
+				      "newmoney" : "￥7.0",
+				      "oldmoney" : "￥50"
+
+					},
+					{
+				       "img"      : "img/y2.jpg",
+				      "show"     : "金鸡 复方双花藤止痒搽剂 150ml",
+					  "newmoney" : "￥18.0",
+				      "oldmoney" : "￥25.00"
+				     
+					},
+					{
+					  "img"      : "img/y3.jpg",
+					  "show"     : "万通 消糜栓 3g*5粒",
+					  "newmoney" : "￥72.5",
+				      "oldmoney" : "￥140.00"
+				      
+
+					},
+					{
+					  "img"      : "img/y4.jpg",
+					  "show"     : "同仁堂 坤宝丸 50丸*10袋/盒",
+					  "newmoney" : "￥40.0",
+				      "oldmoney" : "￥50.0"
+
+					},
+					{
+					
+				      "img"      : "img/y5.jpg",
+				      "show"     : "优思明 屈螺酮炔雌醇片",
+					  "newmoney" : "¥15.0",
+				      "oldmoney" : "¥21.00"
+
+
+					},
+					{
+					 
+				      "img"      : "img/y6.jpg",
+				       "show"     : "凯妮汀 克霉唑阴道片 0.5g*1片/",
+					  "newmoney" : "¥51.0",
+				      "oldmoney" : "¥66.00"
+
+					},
+					{
+					
+				      "img"      : "img/y7.jpg",
+				      "show"     : "密之康 乳宁片 0.33g*36t",
+					  "newmoney" : "¥11.0",
+				      "oldmoney" : "¥12.00"
+
+
+					},
+					{
+					
+				      "img"      : "img/y8.jpg",
+				      "show"     : "广誉远 定坤丹 7g*4瓶",
+					  "newmoney" : "¥15.0",
+				      "oldmoney" : "¥18.50"
+
+
+					}
+	],
+	"gmyy"  : [ {
+				      "img"      : "img/z1.jpg",
+				      "show"     : "同仁堂 板蓝根颗粒（有糖型",
+				      "newmoney" : "￥7.0",
+				      "oldmoney" : "￥50"
+
+					},
+					{
+				       "img"      : "img/z2.jpg",
+				      "show"     : "白云山 复方板蓝根颗粒 15g*20",
+					  "newmoney" : "￥18.0",
+				      "oldmoney" : "￥25.00"
+				     
+					},
+					{
+					  "img"      : "img/z3.jpg",
+					  "show"     : "曼秀雷敦 复方薄荷脑鼻用吸入剂",
+					  "newmoney" : "￥72.5",
+				      "oldmoney" : "￥140.00"
+				      
+
+					},
+					{
+					  "img"      : "img/z4.jpg",
+					  "show"     : "999 感冒灵颗粒 10g*9包/盒",
+					  "newmoney" : "￥40.0",
+				      "oldmoney" : "￥50.0"
+
+					},
+					{
+					
+				      "img"      : "img/z5.jpg",
+				      "show"     : "以岭 连花清瘟胶囊 0.35g*24粒/",
+					  "newmoney" : "¥15.0",
+				      "oldmoney" : "¥21.00"
+
+
+					},
+					{
+					 
+				      "img"      : "img/z6.jpg",
+				       "show"     : "感叹号 复方氨酚烷胺片 12片*1",
+					  "newmoney" : "¥51.0",
+				      "oldmoney" : "¥66.00"
+
+					},
+					{
+					
+				      "img"      : "img/z7.jpg",
+				      "show"     : "柏美星 百蕊颗粒 5g*6袋",
+					  "newmoney" : "¥11.0",
+				      "oldmoney" : "¥12.00"
+
+
+					},
+					{
+					
+				      "img"      : "img/z8.jpg",
+				      "show"     : "瑞晴 小柴胡颗粒(无蔗糖) 3g*20",
+					  "newmoney" : "¥15.0",
+				      "oldmoney" : "¥18.50"
+
+
+					}
+	],
+	"guke"  : [{
+      "img"      : "img/e1.jpg",
+      "show"     : "法斯通 酮洛芬凝胶 20g/支",
+      "newmoney" : "￥7.0",
+      "oldmoney" : "￥50"
+
+	},
+	{
+       "img"      : "img/e2.jpg",
+      "show"     : "沈阳红药 红药贴膏 4贴*3袋/盒",
+	  "newmoney" : "￥18.0",
+      "oldmoney" : "￥25.00"
+     
+	},
+	{
+	  "img"      : "img/e3.jpg",
+	  "show"     : "白云山 701跌打镇痛膏",
+	  "newmoney" : "￥72.5",
+      "oldmoney" : "￥140.00"
+      
+
+	},
+	{
+	  "img"      : "img/e4.jpg",
+	  "show"     : "奥泰灵 盐酸氨基葡萄糖胶囊",
+	  "newmoney" : "￥40.0",
+      "oldmoney" : "￥50.0"
+
+	},
+	{
+	
+      "img"      : "img/e5.jpg",
+      "show"     : "扶他林 双氯芬酸钠缓释片",
+	  "newmoney" : "¥15.0",
+      "oldmoney" : "¥21.00"
+
+
+	},
+	{
+	 
+      "img"      : "img/e6.jpg",
+       "show"     : "金珠雅砻 十五味乳鹏丸 12丸/盒",
+	  "newmoney" : "¥51.0",
+      "oldmoney" : "¥66.00"
+
+	},
+	{
+	
+      "img"      : "img/e7.jpg",
+      "show"     : "撒隆巴斯-爱 复方水杨酸甲酯薄",
+	  "newmoney" : "¥11.0",
+      "oldmoney" : "¥12.00"
+
+
+	},
+	{
+	
+      "img"      : "img/e8.jpg",
+      "show"     : "花红 消肿止痛酊 33ML",
+	  "newmoney" : "¥15.0",
+      "oldmoney" : "¥18.50"
+
+
+	}],
+	"pifu"  : [{
+      "img"      : "img/f1.jpg",
+      "show"     : "奥络 夫西地酸乳膏 5g:0.1g 10g",
+      "newmoney" : "￥7.0",
+      "oldmoney" : "￥50"
+
+	},
+	{
+       "img"      : "img/f2.jpg",
+      "show"     : "澳夫清 卡泊三醇软膏 ",
+	  "newmoney" : "￥18.0",
+      "oldmoney" : "￥25.00"
+     
+	},
+	{
+	  "img"      : "img/f3.jpg",
+	  "show"     : "轰克 氧氟沙星凝胶 10g",
+	  "newmoney" : "￥72.5",
+      "oldmoney" : "￥140.00"
+      
+
+	},
+	{
+	  "img"      : "img/f4.jpg",
+	  "show"     : "仙特明 盐酸西替利嗪片 10mg*5",
+	  "newmoney" : "￥40.0",
+      "oldmoney" : "￥50.0"
+
+	},
+	{
+	
+      "img"      : "img/f5.jpg",
+      "show"     : "美宝 湿润烧伤膏 20g",
+	  "newmoney" : "¥15.0",
+      "oldmoney" : "¥21.00"
+
+
+	},
+	{
+	 
+      "img"      : "img/f6.jpg",
+       "show"     : "达克宁 盐酸特比萘芬喷雾剂",
+	  "newmoney" : "¥51.0",
+      "oldmoney" : "¥66.00"
+
+	},
+	{
+	
+      "img"      : "img/f7.jpg",
+      "show"     : "羚锐康王 复方酮康唑软膏 7g/瓶",
+	  "newmoney" : "¥11.0",
+      "oldmoney" : "¥12.00"
+
+
+	},
+	{
+	
+      "img"      : "img/f8.jpg",
+      "show"     : "希尔生 二硫化硒洗剂 100g/瓶",
+	  "newmoney" : "¥15.0",
+      "oldmoney" : "¥18.50"
+
+
+	}],
+	"changwei" : [{
+      "img"      : "img/g1.jpg",
+      "show"     : "同仁堂 参苓白术颗粒 6g*10袋",
+      "newmoney" : "￥7.0",
+      "oldmoney" : "￥50"
+
+	},
+	{
+       "img"      : "img/g2.jpg",
+      "show"     : "得每通 胰酶肠溶胶囊 0.15g*20",
+	  "newmoney" : "￥18.0",
+      "oldmoney" : "￥25.00"
+     
+	},
+	{
+	  "img"      : "img/g3.jpg",
+	  "show"     : "立效 大山楂丸 9g*40丸*3袋",
+	  "newmoney" : "￥72.5",
+      "oldmoney" : "￥140.00"
+      
+
+	},
+	{
+	  "img"      : "img/g4.jpg",
+	  "show"     : "华山牌 摩罗丹（浓缩丸） 16",
+	  "newmoney" : "￥40.0",
+      "oldmoney" : "￥50.0"
+
+	},
+	{
+	
+      "img"      : "img/g5.jpg",
+      "show"     : "葵花 乳酸菌素片 15片*2板",
+	  "newmoney" : "¥15.0",
+      "oldmoney" : "¥21.00"
+
+
+	},
+	{
+	 
+      "img"      : "img/g6.jpg",
+       "show"     : "杜密克 乳果糖口服溶液",
+	  "newmoney" : "¥51.0",
+      "oldmoney" : "¥66.00"
+
+	},
+	{
+	
+      "img"      : "img/g7.jpg",
+      "show"     : "佐今明 消食养胃片 0.32g*48片",
+	  "newmoney" : "¥11.0",
+      "oldmoney" : "¥12.00"
+
+
+	},
+	{
+	
+      "img"      : "img/g8.jpg",
+      "show"     : "能全力 肠内营养混悬液",
+	  "newmoney" : "¥15.0",
+      "oldmoney" : "¥18.50"
+
+
+	}],
+	"wuguan" : [{
+      "img"      : "img/h1.jpg",
+      "show"     : "白云山 口洁喷雾剂 20ml/瓶",
+      "newmoney" : "￥7.0",
+      "oldmoney" : "￥50"
+
+	},
+	{
+       "img"      : "img/h2.jpg",
+      "show"     : "主题歌 金菊利咽口含片 6片*2",
+	  "newmoney" : "￥18.0",
+      "oldmoney" : "￥25.00"
+     
+	},
+	{
+	  "img"      : "img/h3.jpg",
+	  "show"     : "广西金嗓子 金嗓子喉片 2g*12片",
+	  "newmoney" : "￥72.5",
+      "oldmoney" : "￥140.00"
+      
+
+	},
+	{
+	  "img"      : "img/h4.jpg",
+	  "show"     : "倍可适 丙酸倍氯米松鼻气雾剂",
+	  "newmoney" : "￥40.0",
+      "oldmoney" : "￥50.0"
+
+	},
+	{
+	
+      "img"      : "img/h5.jpg",
+      "show"     : "广宇制药 冬凌草片 0.26g*100片",
+	  "newmoney" : "¥15.0",
+      "oldmoney" : "¥21.00"
+
+
+	},
+	{
+	 
+      "img"      : "img/h6.jpg",
+       "show"     : "意可贴 醋酸地塞米松粘贴片",
+	  "newmoney" : "¥51.0",
+      "oldmoney" : "¥66.00"
+
+	},
+	{
+	
+      "img"      : "img/h7.jpg",
+      "show"     : "辅舒良 丙酸氟替卡松鼻喷雾剂",
+	  "newmoney" : "¥11.0",
+      "oldmoney" : "¥12.00"
+
+
+	},
+	{
+	
+      "img"      : "img/h8.jpg",
+      "show"     : "紫竹 蜂胶口腔膜 20片/盒",
+	  "newmoney" : "¥15.0",
+      "oldmoney" : "¥18.50"
+
+
+	}]
+
+}

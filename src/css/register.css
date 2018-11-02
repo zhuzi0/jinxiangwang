@@ -11,7 +11,7 @@ header{
 	background: url(../img/logo1.png) no-repeat left 35px;
 }
 header h3{
-	font:24px/58px "";
+	font:24px/58px "宋体";
 	margin:35px 0 0 247px ;
 	color: #727272;
 }
@@ -32,7 +32,7 @@ form p{
 }
 form p span{
 	float: right;
-	font:14px/40px "";
+	font:14px/40px "宋体";
 	color: #999;
 }
 form p .sb1{
@@ -44,7 +44,7 @@ form p .sb1{
 	 left:460px;
 	 top:0;
 	 display: none;
-	 font:12px/38px "";
+	 font:12px/38px "宋体";
 	 text-align: center;
 }
 form p .sb2{
@@ -56,7 +56,7 @@ form p .sb2{
 	 left:460px;
 	 top:0;
 	 display: none;
-	 font:12px/38px "";
+	 font:12px/38px "宋体";
 	 text-align: center;
 }
 form p .sb3{
@@ -68,7 +68,7 @@ form p .sb3{
 	 left:460px;
 	 top:0;
 	 display: none;
-	 font:12px/38px "";
+	 font:12px/38px "宋体";
 	 text-align: center;
 }
 form p .sb4{
@@ -80,7 +80,7 @@ form p .sb4{
 	 left:460px;
 	 top:0;
 	 display: none;
-	 font:12px/38px "";
+	 font:12px/38px "宋体";
 	 text-align: center;
 }
 form p .sb5{
@@ -92,7 +92,7 @@ form p .sb5{
 	 left:520px;
 	 top:0;
 	 display: none;
-	 font:12px/38px "";
+	 font:12px/38px "宋体";
 	 text-align: center;
 }
 form p .sb6{
@@ -104,9 +104,10 @@ form p .sb6{
 	 left:520px;
 	 top:0;
 	 display: none;
-	 font:12px/38px "";
+	 font:12px/38px "宋体";
 	 text-align: center;
 }
+
 form p i{
 	color: #eb6464;
 }
@@ -135,7 +136,7 @@ form p:nth-child(6) input{
 	height:40px;
 	left:334px;
 	top:-1px;
-	font:25px/40px "" ;
+	font:25px/40px "宋体" ;
 	color: #0000ed;
 	text-align: center;
 	background: #d4d4d4;
@@ -158,7 +159,7 @@ form  p  button{
 	width:108px;
 	height:40px;
 	background: #f4f4f4;
-	font:12px/40px "";
+	font:12px/40px "宋体";
 	left:334px;
 	top:0;
 	border:1px solid #d9d9d9;
@@ -167,7 +168,9 @@ form  p  button{
 form .read{
      margin:28px  0  42px 185px;
      color: #666;
+     position: relative;
 }
+
 form .read input{
 	position: relative;
 	top:2px;
@@ -176,6 +179,18 @@ form .read input{
 form .read a{
 	color: #4496ee;
 }
+form .read .sb7{
+	 position: absolute;
+	 width: 300px;
+	 height:38px;
+	 border:1px solid #e76464;
+	 color: #e76464;
+	 left:300px;
+	 top:-5px;
+	 display: none;
+	 font:12px/38px "宋体";
+	 text-align: center;
+}
 form .register{
 	 margin-left: 185px;
 }
@@ -183,7 +198,7 @@ form .register input{
       width:270px;
       height: 36px;
       background: #e74e4e;
-      font:16px/36px "";
+      font:16px/36px "宋体";
       text-align: center;
       border: 0;
       color: #fff;
@@ -212,7 +227,7 @@ form .register input{
 	 margin-top: 17px;
 }
 .people-b .people-b-l ul li p{
-	font:14px/36px "";
+	font:14px/36px "宋体";
 	color: #666;
 	cursor: pointer;
 }
@@ -221,7 +236,7 @@ form .register input{
 
 }
 .people-b .people-b-l ul li h3{
-	font:700 16px/40px "";
+	font:700 16px/40px "宋体";
 	color: #4c4c4c;
 }
 .people-b .gongzhong{
@@ -229,7 +244,7 @@ form .register input{
 	 margin:17px 0 0 78px;
 }
 .people-b .gongzhong h3{
-	font:700 16px/40px "";
+	font:700 16px/40px "宋体";
 	color: #4c4c4c;
 	width:130px;
 	text-align: center;
@@ -250,8 +265,8 @@ footer .foot{
 	margin-top:15px ;
 }
 footer .foot a{
-	font:12px/52px "";
+	font:12px/52px "宋体";
 }
 footer  span{
-	font:12px/36px "";
+	font:12px/36px "宋体";
 }

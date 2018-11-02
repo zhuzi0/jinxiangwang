@@ -28,11 +28,11 @@ header{
 }
 #banner form .form-t h3{
 	float: left;
-	font:18px/92px "";
+	font:18px/92px "宋体";
 }
 #banner form .form-t span{
 	float: right;
-	font:12px/92px "";
+	font:12px/92px "宋体";
 }
 #banner form .form-t span a{
 	color: #4496ee;
@@ -82,7 +82,7 @@ header{
 	height:40px;
 	left:210px;
 	top:-1px;
-	font:25px/40px "" ;
+	font:25px/40px "宋体" ;
 	color: #0000ed;
 	text-align: center;
 	background: #d4d4d4;
@@ -127,11 +127,11 @@ header{
 	 height:40px;
 	 color:#fff;
 	 background: #4496ee;
-	 font:14px/40px "";
+	 font:14px/40px "宋体";
  
 }
 #banner form .other h5{
-	font:12px/44px "";
+	font:12px/44px "宋体";
 	color: #999;
 
 }
@@ -168,8 +168,8 @@ footer .foot{
 	margin-top:15px ;
 }
 footer .foot a{
-	font:12px/52px "";
+	font:12px/52px "宋体";
 }
 footer  span{
-	font:12px/36px "";
+	font:12px/36px "宋体";
 }

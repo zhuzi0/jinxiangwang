@@ -2,30 +2,30 @@
 /* CSS Document */
 .margin{width:1200px;margin:0 auto;}
 #top{background: #f3f3f3;height:30px;width:100%;border-bottom:1px solid #e1e1e2;}
-#top .login{float: left;width:188px;height:30px;background: #fff;font:12px/30px "";position: relative;}
+#top .login{float: left;width:188px;height:30px;background: #fff;font:12px/30px "宋体";position: relative;}
 #top .login .xialakuang{position: absolute;width:42px;height:14px;background:#fff url(../img/1.png) no-repeat center;left:73px;border: 1px solid #e1e1e2;border-top: 0; }
 #top .login .wel{color: #999;text-align: center;border-left:1px solid #e1e1e2;border-right:1px solid #e1e1e2;}
 #top .login .wel a{color: #4496ee}
 #top .login .tanchu{width:218px;height:108px;border: 1px solid #e5e5e5;position: absolute;display: none; }
 #top .login .tanchu .user{width:218px;height: 74px;background: #fff;}
 #top .login .tanchu .user .tou{float:left;width:48px;height: 48px;border-radius: 5px;background:url(../img/3.png) no-repeat center;margin:14px 0 0 10px;}
-#top .login .tanchu .user .huan{float: left;font:12px/48px "";margin:14px 0 0 18px;color:#666;}
+#top .login .tanchu .user .huan{float: left;font:12px/48px "宋体";margin:14px 0 0 18px;color:#666;}
 #top .login .tanchu .jifen{}
-#top .login .tanchu .jifen .ji{float:left;width:108px;height:34px;background: #ffe5c6;font:12px/34px "";text-align: center;border-right: 2px solid #ffd4a0;}
-#top .login .tanchu .jifen .shou{float:left;width:108px;height:34px;background: #ffe5c6;font:12px/34px "";text-align: center;}
+#top .login .tanchu .jifen .ji{float:left;width:108px;height:34px;background: #ffe5c6;font:12px/34px "宋体";text-align: center;border-right: 2px solid #ffd4a0;}
+#top .login .tanchu .jifen .shou{float:left;width:108px;height:34px;background: #ffe5c6;font:12px/34px "宋体";text-align: center;}
 #top .login:hover .tanchu{display:block;}
-#top .sele{float:right;font:12px/30px "";height:30px;}
+#top .sele{float:right;font:12px/30px "宋体";height:30px;}
 #top .sele a{position: relative;display: inline-block;}
 #top .sele a:hover{color:#4496ee;}
 #top .sele a .car{position:relative;top:-2px;}
 #top .sele a .personcenter{position:absolute;width:163px;height: 80px;border:1px solid #e5e5e5;border-top:0;top:28px;left:-92px;display: none;background: #fff;}
 #top .sele a .personcenter ul{height:60px;width:134px;margin:10px 0 0 18px;}
-#top .sele a .personcenter ul li{font:12px/30px "";float: left;}
+#top .sele a .personcenter ul li{font:12px/30px "宋体";float: left;}
 #top .sele a .personcenter ul li.te1{margin-right:14px ;}
 #top .sele a .personcenter ul li.te2{margin-right: 25px;}
 #top .sele a.person:hover .personcenter{display: block;}
 #top .sele a.guan .follow{position:absolute;width:78px;height:117px;border:1px solid #e5e5e5;top:30px;left:-14px;padding:12px 10px;display: none;background: #fff;z-index: 2;}
-#top .sele a.guan .follow p{padding: 0 8px;font:12px/18px "";margin-top: 5px;}
+#top .sele a.guan .follow p{padding: 0 8px;font:12px/18px "宋体";margin-top: 5px;}
 #top .sele a.guan:hover .follow{display: block;}
 #top .sele a.ser .service{position: absolute;width:163px;height: 110px;border:1px solid #e5e5e5;border-top: 0;top:30px;left:-94px;display: none;background:#fff;z-index: 2;}
 #top .sele a.ser .service ul{height: 100px;padding-top: 10px;}
@@ -40,7 +40,7 @@ header{
 	background: url(../img/logo1.png) no-repeat left 35px,url(../img/dan.png) no-repeat right;
 }
 header h3{
-	font:24px/58px "";
+	font:24px/58px "宋体";
 	margin:35px 0 0 247px ;
 	color: #727272;
 }
@@ -48,7 +48,7 @@ main{
 	padding-bottom: 100px;
 }
 main h2{
-	font:18px/36px "";
+	font:18px/36px "宋体";
 	color: #e76464;
 }
 main table tr{
@@ -75,6 +75,11 @@ main table tr td{
 main table tr td:nth-child(1){
 	text-align: left;
 }
+[type="checkbox"]{
+	position: relative;
+	top:2px;
+	margin-right:2px;
+}
 main .jiesuan{
 	height: 50px;
 	margin-top: 20px;
@@ -83,7 +88,7 @@ main .jiesuan button{
 	width:220px;
 	height: 50px;
 	text-align: center;
-	font:14px/50px "";
+	font:14px/50px "宋体";
 	background: #4496ee;
 	border:0;
 	float: right;
@@ -91,7 +96,7 @@ main .jiesuan button{
 }
 main .blank {
 				height: 448px;
-				font: 12px/28px "";
+				font: 12px/28px "宋体";
 				color: #666;
 				display: none;
 }
@@ -116,7 +121,7 @@ main .zong{
 main .zong li{
 	    float: left;
 	    margin-right:32px;
-	    font:12px/88px "";
+	    font:12px/88px "宋体";
 	    cursor: pointer;
 }
 main .zong li:nth-child(4) a{
@@ -124,7 +129,7 @@ main .zong li:nth-child(4) a{
 }
 main .zong li:nth-child(5){
 	 margin-left: 528px;
-	 font:22px/88px "";
+	 font:22px/88px "宋体";
 	 color: #333;
 }
 main .zong li:nth-child(5) span{
@@ -152,7 +157,7 @@ main .zong li:nth-child(5) span{
 	 margin-top: 17px;
 }
 .people-b .people-b-l ul li p{
-	font:14px/36px "";
+	font:14px/36px "宋体";
 	color: #666;
 	cursor: pointer;
 }
@@ -161,7 +166,7 @@ main .zong li:nth-child(5) span{
 
 }
 .people-b .people-b-l ul li h3{
-	font:700 16px/40px "";
+	font:700 16px/40px "宋体";
 	color: #4c4c4c;
 }
 .people-b .gongzhong{
@@ -169,7 +174,7 @@ main .zong li:nth-child(5) span{
 	 margin:17px 0 0 78px;
 }
 .people-b .gongzhong h3{
-	font:700 16px/40px "";
+	font:700 16px/40px "宋体";
 	color: #4c4c4c;
 	width:130px;
 	text-align: center;
@@ -190,8 +195,8 @@ footer .foot{
 	margin-top:15px ;
 }
 footer .foot a{
-	font:12px/52px "";
+	font:12px/52px "宋体";
 }
 footer  span{
-	font:12px/36px "";
+	font:12px/36px "宋体";
 }
