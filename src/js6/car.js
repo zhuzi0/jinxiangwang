@@ -168,6 +168,16 @@ $(function () {
       window.location.reload();
     }
   });
+  $(".jiesuan button").click(function () {
+    $("#motai1").css("display", "block");
+    $("#motai2").css("display", "block");
+    $("body").css("overflow", "hidden");
+  });
+  $("#motai2 span").click(function () {
+    $("#motai1").css("display", "none");
+    $("#motai2").css("display", "none");
+    $("body").css("overflow", "");
+  });
 });
 
 function convertCookieStrToCookieObj(str) {

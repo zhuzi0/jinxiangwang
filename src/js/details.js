@@ -230,5 +230,146 @@ $("#hanging a").eq(3).click(function(){
              $("html,body").animate({"scrollTop": '0px'}, 1000);
 })    
 
+$(".tab .tab1").hover(function(){
+      $(".tabb").css("display","none");
+      $(".tab2").css("backgroundPosition" , "-79px 0px");
+      $(".tab3").css("backgroundPosition" , "-178px 0");
+      $(".tab4").css("backgroundPosition" , "-286px 0");
+      $(".tab5").css("backgroundPosition" , "-384px 6px");
+      $(".tab6").css("backgroundPosition" , "-460px 0px");
+      $(".tab7").css("backgroundPosition" , "-556px 0px");
+      $(".tab8").css("backgroundPosition" , "-668px 0");
+      $(this).css("backgroundPosition" , "0 -122px");
+      $(".tab1-1").css("background","url(img/servicePic01.png) no-repeat center");
 
+   })
+$(".tab .tab2").hover(function(){
+      $(".tabb").css("display","none");
+      $(".tab1").css("backgroundPosition" , "0 0");
+      $(".tab3").css("backgroundPosition" , "-178px 0");
+      $(".tab4").css("backgroundPosition" , "-286px 0");
+      $(".tab5").css("backgroundPosition" , "-384px 6px");
+      $(".tab6").css("backgroundPosition" , "-460px 0px");
+      $(".tab7").css("backgroundPosition" , "-556px 0px");
+      $(".tab8").css("backgroundPosition" , "-668px 0");
+      $(this).css("backgroundPosition" , "-76px -121px");
+       $(".tab1-1").css("background"," url(img/servicePic02.png) no-repeat center");
 
+   })
+$(".tab .tab3").hover(function(){
+      $(".tab1").css("backgroundPosition" , "0 0");
+      $(".tab2").css("backgroundPosition" , "-79px 0px");
+      $(".tab4").css("backgroundPosition" , "-286px 0");
+      $(".tab5").css("backgroundPosition" , "-384px 6px");
+      $(".tab6").css("backgroundPosition" , "-460px 0px");
+      $(".tab7").css("backgroundPosition" , "-556px 0px");
+      $(".tab8").css("backgroundPosition" , "-668px 0");
+      $(this).css("backgroundPosition" , "-175px -122px");
+      $(".tab1-1").css("background"," url(img/servicePic03.png) no-repeat center");
+      $(".tabb").css("display","block");
+
+   })
+$(".tab .tab4").hover(function(){
+      $(".tabb").css("display","none");
+      $(".tab1").css("backgroundPosition" , "0 0");
+      $(".tab2").css("backgroundPosition" , "-79px 0px");
+      $(".tab3").css("backgroundPosition" , "-178px 0");
+      $(".tab5").css("backgroundPosition" , "-384px 6px");
+      $(".tab6").css("backgroundPosition" , "-460px 0px");
+      $(".tab7").css("backgroundPosition" , "-556px 0px");
+      $(".tab8").css("backgroundPosition" , "-668px 0");
+      $(this).css("backgroundPosition" , "-285px -122px");
+       $(".tab1-1").css("background","url(img/servicePic04.png) no-repeat center");
+
+   })
+$(".tab .tab5").hover(function(){
+      $(".tabb").css("display","none");
+      $(".tab1").css("backgroundPosition" , "0 0");
+      $(".tab2").css("backgroundPosition" , "-79px 0px");
+      $(".tab3").css("backgroundPosition" , "-178px 0");
+      $(".tab4").css("backgroundPosition" , "-286px 0");
+      $(".tab6").css("backgroundPosition" , "-460px 0px");
+      $(".tab7").css("backgroundPosition" , "-556px 0px");
+      $(".tab8").css("backgroundPosition" , "-668px 0");
+      $(this).css("backgroundPosition" , "-382px -123px");
+       $(".tab1-1").css("background","url(img/servicePic05.png) no-repeat center");
+
+   })
+$(".tab .tab6").hover(function(){
+      $(".tabb").css("display","none");
+      $(".tab1").css("backgroundPosition" , "0 0");
+      $(".tab2").css("backgroundPosition" , "-79px 0px");
+      $(".tab3").css("backgroundPosition" , "-178px 0");
+      $(".tab4").css("backgroundPosition" , "-286px 0");
+      $(".tab5").css("backgroundPosition" , "-384px 6px");
+      $(".tab7").css("backgroundPosition" , "-556px 0px");
+      $(".tab8").css("backgroundPosition" , "-668px 0");
+      $(this).css("backgroundPosition" , "-460px -122px");
+       $(".tab1-1").css("background","url(img/servicePic06.png) no-repeat center");
+
+   })
+
+$(".tab .tab7").hover(function(){
+       $(".tabb").css("display","none");
+      $(".tab1").css("backgroundPosition" , "0 0");
+      $(".tab2").css("backgroundPosition" , "-79px 0px");
+      $(".tab3").css("backgroundPosition" , "-178px 0");
+      $(".tab4").css("backgroundPosition" , "-286px 0");
+      $(".tab5").css("backgroundPosition" , "-384px 6px");
+      $(".tab6").css("backgroundPosition" , "-460px 0px");
+      $(".tab8").css("backgroundPosition" , "-668px 0");
+      $(this).css("backgroundPosition" , "-556px -122px");
+       $(".tab1-1").css("background","url(img/servicePic07.png) no-repeat center");
+
+   })
+$(".tab .tab8").hover(function(){
+      $(".tabb").css("display","none");
+      $(".tab1").css("backgroundPosition" , "0 0");
+      $(".tab2").css("backgroundPosition" , "-79px 0px");
+      $(".tab3").css("backgroundPosition" , "-178px 0");
+      $(".tab4").css("backgroundPosition" , "-286px 0");
+      $(".tab5").css("backgroundPosition" , "-384px 6px");
+      $(".tab6").css("backgroundPosition" , "-460px 0px");
+      $(".tab7").css("backgroundPosition" , "-556px 0px");
+      $(this).css("backgroundPosition" , "-668px -120px");
+       $(".tab1-1").css("background","url(img/servicePic08.png) no-repeat center");
+
+   })
+        let numm=1;
+
+        $(".bt1").click(function(){
+          if(numm == 3){
+             numm = 0;
+          }
+           numm++;
+           if(numm==1){
+             $(".tabb-t").html("互联网药品信息服务资格证书");
+           }else if(numm==2){
+             $(".tabb-t").html("互联网药品交易服务资格证书");
+           }else{
+             $(".tabb-t").html("药品经营质量管理规范认证证书");
+           }
+           $(this).parent().css("background","url(img/drugCerPic0"+ numm +".jpg) no-repeat center");
+          
+        })
+        $(".bt2").click(function(){
+          if(numm == 1){
+             numm = 4;
+          }
+          if(numm==1){
+             $(".tabb-t").html("互联网药品信息服务资格证书");
+           }else if(numm==2){
+             $(".tabb-t").html("互联网药品交易服务资格证书");
+           }else{
+             $(".tabb-t").html("药品经营质量管理规范认证证书");
+           }
+           numm--;
+           $(this).parent().css("background","url(img/drugCerPic0"+ numm +".jpg) no-repeat center");
+          
+        })
+        $(".dafen a").each(function(){
+            $(this).click(function(){
+              $(this).parent().find("a").css("borderBottom","0");
+              $(this).css("borderBottom","2px solid #f63334");
+            })
+        })

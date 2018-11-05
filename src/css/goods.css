@@ -1,4 +1,4 @@
-@charset "utf-8";
+/*@charset "utf-8";
 /* CSS Document */
 body,html{
 	width: 100%;
@@ -1192,7 +1192,288 @@ main .main_2 .main_2-r .shuo_2 img{
 	text-align: center;
 }
 main .main_2 .main_2-r .shuo_3{
-	margin-top: 10px;
+	margin-top: 20px;
+}
+main .main_2 .main_2-r .shuo_3 .safe{
+	display: block;
+}
+main .main_2 .main_2-r .shuo_3 .tishi{
+	display: block;
+	margin-top:10px;
+}
+main .main_2 .main_2-r .shuo_3 .tab{
+	width: 790px;
+	height:800px;
+	background: #fff url(../img/serviceBg.png) no-repeat center;
+	position: relative;
+}
+main .main_2 .main_2-r .shuo_3 .tab .tab1{
+	position: absolute;
+	left:362px;
+	top:35px;
+	width:76px;
+	height: 110px;
+	background:url(../img/iconService.png) no-repeat;
+	background-position:0 -122px;
+	z-index: 1;
+}
+main .main_2 .main_2-r .shuo_3 .tab  .tab1-1{
+
+	 position: absolute;
+	 left:109px;
+	 top: 114px;
+	 width:570px;
+	 height:570px;
+	 background: url(../img/servicePic01.png) no-repeat center;
+}
+main .main_2 .main_2-r .shuo_3 .tab  .tabb{
+	 display:none; 
+	 position: absolute;
+	 left:109px;
+	 top: 114px;
+	 width:570px;
+	 height:570px;
+	 background: url(../img/drugCerPic01.jpg) no-repeat center;
+
+}
+main .main_2 .main_2-r .shuo_3 .tab  .tabb h3{
+	       margin: 100px 0 0 190px;
+	       font-size: 14px;
+	       color: #333;
+}
+main .main_2 .main_2-r .shuo_3 .tab  .tabb  .bt1{
+	       position: absolute;
+	       left:514px;
+	       top:290px;
+	       font-size: 28px;
+}
+main .main_2 .main_2-r .shuo_3 .tab  .tabb  .bt2{
+	       position: absolute;
+	       font-size: 28px;
+	       left:38px;
+	       top:290px;
+}
+main .main_2 .main_2-r .shuo_3 .tab .tab2{
+	position: absolute;
+	left:588px;
+	top:146px;
+	width:94px;
+	height: 90px;
+	background:url(../img/iconService.png) no-repeat;
+	/*background-position:-76px -121px;*/
+	background-position:-79px 0px;
+}
+main .main_2 .main_2-r .shuo_3 .tab .tab3{
+	position: absolute;
+	left:652px;
+	top:370px;
+	width:110px;
+	height: 76px;
+	background:url(../img/iconService.png) no-repeat;
+	/*background-position:-175px -122px;*/
+	background-position:-178px 0;
+}
+main .main_2 .main_2-r .shuo_3 .tab .tab4{
+	position: absolute;
+	left:602px;
+	top:546px;
+	width:94px;
+	height: 90px;
+	background:url(../img/iconService.png) no-repeat;
+	/*background-position:-284px -122px;*/
+	background-position:-286px 0;
+}
+main .main_2 .main_2-r .shuo_3 .tab .tab5{
+	position: absolute;
+	left:362px;
+	top:646px;
+	width:76px;
+	height: 120px;
+	background:url(../img/iconService.png) no-repeat;
+	/*background-position:-382px -123px;*/
+	background-position:-384px 6px;
+}
+
+main .main_2 .main_2-r .shuo_3 .tab .tab6{
+	position: absolute;
+	left:100px;
+	top:556px;
+	width:94px;
+	height: 90px;
+	background:url(../img/iconService.png) no-repeat;
+	/*background-position:-460px -122px;*/
+	background-position:-460px 0px;
+}
+main .main_2 .main_2-r .shuo_3 .tab .tab7{
+	position: absolute;
+	left:27px;
+	top:370px;
+	width:110px;
+	height: 76px;
+	background:url(../img/iconService.png) no-repeat;
+	/*background-position:-556px -122px;*/
+	background-position:-556px 0px;
+}
+main .main_2 .main_2-r .shuo_3 .tab .tab8{
+	position: absolute;
+	left:102px;
+	top:148px;
+	background: #f00;
+	width:94px;
+	height: 90px;
+	background:url(../img/iconService.png) no-repeat;
+	/*background-position:-668px -120px;*/
+	background-position:-668px 0;
+}
+main .main_2  .evaluate{
+	 width:790px;
+	 height:300px;
+	 background: #fff;
+	 margin-top: 10px;
+}
+main .main_2  .evaluate h4{
+	 font:12px/34px "宋体";
+	 color: #666;
+	 margin-left: 20px;
+}
+main .main_2  .evaluate .evaluate-t{
+	height:146px;
+	border-bottom:1px solid #e9e8e8;
+	position: relative;
+}
+main .main_2  .evaluate .evaluate-t .dafen{
+	 position: absolute;
+	 left:0;
+	 top:117px;
+}
+main .main_2  .evaluate .evaluate-t .dafen a{
+	float: left;
+	width:50px;
+	height: 29px;
+	margin-left: 18px;
+	text-align: center;
+	line-height: 29px;
+	font-size: 12px;
+	cursor: #666;
+}
+main .main_2  .evaluate .evaluate-t .dafen a:nth-child(1){
+    	border-bottom: 2px solid #f63334;
+}
+main .main_2  .evaluate .evaluate-t .evaluate-t-l{
+	  float: left;
+	  margin:0 62px;
+	  text-align: center;
+}
+main .main_2  .evaluate .evaluate-t .evaluate-t-l p{
+	 width:96px;
+	 font-size: 38px;
+	 color: #f63334;
+	 margin-top: 19px;
+}
+main .main_2  .evaluate .evaluate-t .evaluate-t-l span{
+	font-size: 12px;
+	margin-top: 12px;
+	color: #999;
+
+}
+main .main_2  .evaluate .evaluate-t .evaluate-t-c{
+	  float: left;
+	  margin: 14px 0 0 10px;
+}
+main .main_2  .evaluate .evaluate-t .evaluate-t-c p{
+	  height: 22px;
+	  font-size:12px;
+	  line-height: 22px;
+	  color: #666;
+}
+main .main_2  .evaluate .evaluate-t .evaluate-t-c p b{
+	 float: left;
+}
+main .main_2  .evaluate .evaluate-t .evaluate-t-c p span{
+	 float: left;
+	 margin-left: 7px;
+}
+main .main_2  .evaluate .evaluate-t .evaluate-t-c p i{
+	 float: left;
+	 width:100px;
+	 height:10px;
+	 margin: 6px 0 0 22px;
+	 background: #efefef;
+}
+main .main_2  .evaluate .evaluate-t .evaluate-t-r{
+	 float: left;
+	 margin-left: 168px;
+	 height: 74px;
+	 width:202px;
+	 border-left: 1px dashed #dbdbdb;
+	 text-align: center;
+}
+main .main_2  .evaluate .evaluate-t .evaluate-t-r p{
+	margin: 22px 0 7px 0;
+	color: #666;
+}
+main .main_2  .evaluate .evaluate-t .evaluate-t-r span{
+	  color:#4496ee;
+}
+main .main_2  .evaluate  .evaluate-b{
+        height: 80px;
+        padding-top: 40px;
+}
+main .main_2  .evaluate .evaluate-b span{
+        float: left;
+} 
+main .main_2  .evaluate  .evaluate-b span:nth-child(1){
+	width:63px;
+	height: 25px;
+	border: 1px solid #ddd;
+	font-size: 10px;
+	line-height: 25px;
+	text-align: center;
+	margin-left: 406px;
+}
+main .main_2  .evaluate  .evaluate-b span:nth-child(2){
+	width:35px;
+	height: 25px;
+	font-size: 10px;
+	line-height: 25px;
+	text-align: center;
+	color: #f50829;
+}
+main .main_2  .evaluate  .evaluate-b span:nth-child(3){
+	width:63px;
+	height: 25px;
+	border: 1px solid #ddd;
+	font-size: 10px;
+	line-height: 25px;
+	text-align: center;
+}
+main .main_2  .evaluate  .evaluate-b span:nth-child(4){
+	width:122px;
+	height: 26px;
+	text-align: center;
+	margin-left: 14px;
+}
+main .main_2  .evaluate  .evaluate-b span:nth-child(4) b{
+	    float: left;
+		font-size: 10px;
+	    line-height: 25px;
+}
+main .main_2  .evaluate  .evaluate-b span:nth-child(4) i{
+	float: left;
+    display: inline-block;
+	border: 1px solid #ddd;
+	width:50px;
+    font-size: 10px;
+	line-height: 25px;
+	height: 25px;
+}
+main .main_2  .evaluate  .evaluate-b span:nth-child(5){
+	width:47px;
+	height: 25px;
+	border: 1px solid #ddd;
+	font-size: 10px;
+	line-height: 25px;
+	text-align: center;
 }
 #peo{
 	width:100%;
